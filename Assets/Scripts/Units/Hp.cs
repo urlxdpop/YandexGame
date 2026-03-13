@@ -27,5 +27,11 @@ public class Hp : MonoBehaviour
         }
     }
 
-
+    private void OnDestroy()
+    {
+        if (_centerController != null)
+        {
+            _centerController.OnDamageTaken -= TakeDamage;
+        }
+    }
 }

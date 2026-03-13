@@ -38,6 +38,7 @@ namespace Units.Warrior
         [SerializeField] private WarriorType type;
 
         private WarriorState _state;
+        private float _lastDamage;
 
         private ICenterController _opponent;
         private readonly List<ICenterController> _targets = new();
@@ -46,6 +47,7 @@ namespace Units.Warrior
         public Side Side => side;
         public ICenterController EnemyWarrior => _opponent;
         public Vector3 Pos => transform.position;
+        public float LastDamage => _lastDamage;
 
         //Events
         public event Action<WarriorState> OnStateChanged;
@@ -86,6 +88,7 @@ namespace Units.Warrior
 
         public void TakeDamage(float damage)
         {
+            _lastDamage = damage;
             if (_state == WarriorState.Dead) return;
             OnDamageTaken?.Invoke(damage);
         }
@@ -95,7 +98,16 @@ namespace Units.Warrior
             if (_state == WarriorState.Dead) return;
             SetState(WarriorState.Dead);
             OnDeath?.Invoke(this, EventArgs.Empty);
-            // Здесь можно добавить логику для уничтожения объекта или его отключения
+            GetComponent<Collider2D>().enabled = false;
+        }
+
+        public void DestroyYourself()
+        {
+            for (int i = 0; i < _targets.Count; i++)
+            {
+                _targets[i].OnDeath -= RemoveTarget;
+            }
+            Destroy(gameObject);
         }
 
         private void SetState(WarriorState newState)

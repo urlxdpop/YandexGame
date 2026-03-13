@@ -10,7 +10,9 @@ public interface ICenterController
     public Side Side { get; }
     public ICenterController EnemyWarrior { get; }
     public Vector3 Pos { get; }
+    public float LastDamage { get; }   
 
     public void TakeDamage(float damage);
     public void Death();
+    public void DestroyYourself();
 }

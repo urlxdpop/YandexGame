@@ -22,6 +22,7 @@ namespace Units.Base
         // Implementing ICenterController (non realization)
         public event Action<WarriorState> OnStateChanged { add { } remove { } }
         public ICenterController EnemyWarrior => null;
+        public float LastDamage => 0;
 
         public void TakeDamage(float damage)
         {
@@ -33,6 +34,11 @@ namespace Units.Base
         {
             _isDead = true;
             OnDeath?.Invoke(this, EventArgs.Empty);
+        }
+
+        public void DestroyYourself()
+        {
+            Destroy(gameObject);
         }
     }
 }

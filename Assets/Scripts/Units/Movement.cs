@@ -47,5 +47,13 @@ namespace Units.Movement
                 _isMoving = false;
             }
         }
+
+        private void OnDestroy()
+        {
+            if (_centerControler != null)
+            {
+                _centerControler.OnStateChanged -= CenterControler_OnStateChanged;
+            }
+        }
     }
 }

@@ -80,5 +80,10 @@ namespace Units.Combat
                 _attackTimer = attackCooldown;
             }
         }
+
+        private void OnDestroy()
+        {
+            _centerController.OnStateChanged -= CenterController_OnAttack;
+        }
     }
 }

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -30,7 +31,6 @@ namespace Units.Warrior
 
             // Subscribe to events
             _centerController.OnStateChanged += CenterController_OnStateChanged;
-            _centerController.OnDamageTaken += CenterController_SetLastTakeDamage;
 
             // Misc
             _impulse = _centerController.Side == Side.Enemy ? 1 : -1;
@@ -54,14 +54,10 @@ namespace Units.Warrior
             }
         }
 
-        private void CenterController_SetLastTakeDamage(float damage)
-        {
-            _lastDamage = damage;
-            //_animator.SetTrigger("TakeDamage");
-        }
-
         private void Death()
         {
+            _lastDamage = _centerController.LastDamage;
+
             Rigidbody2D rb = gun.GetComponent<Rigidbody2D>();
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.AddForce(new Vector2(5 * _impulse, Mathf.Abs(2 * _impulse)) * _lastDamage);
@@ -76,7 +72,12 @@ namespace Units.Warrior
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.AddForce(new Vector2(5 * _impulse, 0) * _lastDamage);
 
-            transform.DOFade(0, 1f).OnComplete(() => Destroy(gameObject));
+            _spriteRenderer.DOFade(0, 4f).OnComplete(() => _centerController.DestroyYourself());
+        }
+
+        private void OnDestroy()
+        {
+            _centerController.OnStateChanged -= CenterController_OnStateChanged;
         }
     }
 }
