@@ -59,11 +59,15 @@ PrefabInstance:
     - target: {fileID: 7221560536257493087, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2104043822873783708, guid: 3a6756cd3154d4f4db981e9d0da4103b, type: 3}
+      objectReference: {fileID: 8886843246890084599, guid: d07b2ed45e9642b47a4dc1cf23859961, type: 3}
     - target: {fileID: 7270476245826336008, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 2031342667, guid: 7aec4921eeeb9d6409f04ff604af799f, type: 3}
+    - target: {fileID: 7295237318102303229, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 0dc5004bd06dc4a4eafa40f098b243ee, type: 2}
     - target: {fileID: 7895648300560121891, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: m_Sprite
       value: 

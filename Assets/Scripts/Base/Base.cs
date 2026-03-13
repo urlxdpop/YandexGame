@@ -24,6 +24,14 @@ namespace Units.Base
         public ICenterController EnemyWarrior => null;
         public float LastDamage => 0;
 
+        private void OnValidate()
+        {
+            if (side == Side.Enemy)
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
+        }
+
         public void TakeDamage(float damage)
         {
             if (_isDead) return;
