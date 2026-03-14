@@ -22,7 +22,7 @@ namespace Game.Spawner
 
         private void Update()
         {
-            text.text = ((int)_score).ToString();
+            if (text) text.text = ((int)_score).ToString();
 
             if (!waited) StartCoroutine(AddScore());
         }

@@ -83,6 +83,10 @@ PrefabInstance:
       propertyPath: m_Size.y
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1348534778817568397, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: m_Offset.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1411024096210044437, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: speed
       value: 0.3

@@ -151,7 +151,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.5}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -541,12 +541,20 @@ PrefabInstance:
       value: Gun
       objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: b29a1b117506fc44b9850c322cb5ca4d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265628392799148011, guid: b29a1b117506fc44b9850c322cb5ca4d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8265628392799148011, guid: b29a1b117506fc44b9850c322cb5ca4d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.183
+      value: 0.24
       objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: b29a1b117506fc44b9850c322cb5ca4d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.091
+      value: 0.072
       objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: b29a1b117506fc44b9850c322cb5ca4d, type: 3}
       propertyPath: m_LocalPosition.z
