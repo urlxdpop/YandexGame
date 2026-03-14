@@ -1,6 +1,7 @@
 using UnityEngine;
 using Units.Warrior;
 using System.Collections.Generic;
+using System;
 
 namespace Units.Combat
 {
@@ -17,6 +18,8 @@ namespace Units.Combat
         private bool _isAttacking;
         private float _attackTimer;
         private ICenterController _centerController;
+
+        public event EventHandler OnAttack;
 
         private void Awake()
         {
@@ -45,6 +48,7 @@ namespace Units.Combat
                     {
                         _centerController.EnemyWarrior.TakeDamage(damage);
                     }
+                    OnAttack?.Invoke(this, EventArgs.Empty);
                 }
 
                 _attackTimer = attackCooldown;

@@ -1,37 +1,45 @@
 using UnityEngine;
+using System;
 
-public class Hp : MonoBehaviour
+namespace Units
 {
-    [SerializeField] private float maxHp = 100f;
-    [SerializeField] private float armor = 1f;
 
-    private float currentHp;
-
-    ICenterController _centerController;
-
-    private void Awake()
+    public class Hp : MonoBehaviour
     {
-        currentHp = maxHp;
-        _centerController = GetComponentInParent<ICenterController>();
-        _centerController.OnDamageTaken += TakeDamage;
-    }
+        [SerializeField] private float maxHp = 100f;
+        [SerializeField] private float armor = 1f;
 
-    private void TakeDamage(float damage)
-    {
-        float effectiveDamage = damage / armor;
-        currentHp -= effectiveDamage;
-        if (currentHp <= 0)
+        private float _currentHp;
+
+        private ICenterController _centerController;
+
+        public event Action<float> OnHpChangedInPercent;
+
+        private void Awake()
         {
-            currentHp = 0;
-            _centerController.Death();
+            _currentHp = maxHp;
+            _centerController = GetComponentInParent<ICenterController>();
+            _centerController.OnDamageTaken += TakeDamage;
         }
-    }
 
-    private void OnDestroy()
-    {
-        if (_centerController != null)
+        private void TakeDamage(float damage)
         {
-            _centerController.OnDamageTaken -= TakeDamage;
+            float effectiveDamage = damage / armor;
+            _currentHp -= effectiveDamage;
+            OnHpChangedInPercent?.Invoke(_currentHp / maxHp);
+            if (_currentHp <= 0)
+            {
+                _currentHp = 0;
+                _centerController.Death();
+            }
+        }
+
+        private void OnDestroy()
+        {
+            if (_centerController != null)
+            {
+                _centerController.OnDamageTaken -= TakeDamage;
+            }
         }
     }
 }

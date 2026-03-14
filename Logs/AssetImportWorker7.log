@@ -1,12 +1,14 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-Built from '6000.2/staging' branch; Version is '6000.2.13f1 (abdb44fca7f7) revision 11262788'; Using compiler version '194234433'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'ru' Physical Memory: 32472 MB
+Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 32472 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-03-13T16:04:09Z
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-13T16:04:09.7827826Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-03-14T07:49:14Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-14T07:49:14.689097Z"
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.2.13f1\Editor\Unity.exe
+D:\Nikita\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -17,7 +19,7 @@ D:/Nikita/Unity/myProject/YandexGame
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-52745
+55708
 -licensingIpc
 LicenseClient-User
 -job-worker-count
@@ -31,8 +33,19 @@ AssetImport
 Successfully changed project path to: D:/Nikita/Unity/myProject/YandexGame
 D:/Nikita/Unity/myProject/YandexGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
     "memorysetup-allocator-temp-initial-block-size-main=262144"
     "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
     "memorysetup-bucket-allocator-block-size=33554432"
@@ -53,24 +66,13 @@ D:/Nikita/Unity/myProject/YandexGame
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-    "memorysetup-temp-allocator-size-background-worker=32768"
-    "memorysetup-temp-allocator-size-job-worker=262144"
-    "memorysetup-temp-allocator-size-preload-manager=33554432"
-    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
-    "memorysetup-temp-allocator-size-audio-worker=65536"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
-    "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [27848]  Target information:
+Player connection [25060]  Target information:
 
-Player connection [27848]  * "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 336661133 [EditorId] 336661133 [Version] 1048832 [Id] WindowsEditor(7,NIKITA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25060]  * "[IP] 192.168.0.103 [Port] 0 [Flags] 2 [Guid] 3274431717 [EditorId] 3274431717 [Version] 1048832 [Id] WindowsEditor(7,NIKITA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27848] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27848] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25060] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25060] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,10 +84,10 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 12.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 20.16 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.2.13f1 (abdb44fca7f7)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/Nikita/Unity/myProject/YandexGame/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
@@ -95,55 +97,68 @@ Direct3D:
     VRAM:     16236 MB
     Driver:   32.0.101.7080
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
+Mono path[0] = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004141 seconds.
-- Loaded All Assemblies, in  0.952 seconds
+Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003622 seconds.
+- Loaded All Assemblies, in  1.338 seconds
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-03-14T07:49:17.9004926Z"
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 [Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.17.4+4293ba1
-  Session Id:              5ab1f3f5a665445fb599a5f28bc9b7c9
-  Correlation Id:          bc14acbbe70ef033a63b14df94305a48
-  External correlation Id: 1875820476613192723
+  Version:                 1.18.0+23225a6
+  Session Id:              86564eb459b64cf39aa109e677e73622
+  Correlation Id:          6cf4558f546cb80799ccb8d1dd783278
+  External correlation Id: 5979786275034428063
   Machine Id:              PjmiVTPYQeyv+WZ33Tq9j//byBU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User" (connect: 0.00s, validation: 0.00s, handshake: 2.82s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-notifications" at "2026-03-13T16:04:12.605893Z"
-[Licensing::Module] Licensing Background thread has ended after 2.83s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-03-14T07:49:18.1533166Z"
+[Licensing::Module] Licensing Background thread has ended after 3.47s
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.843 seconds
-Domain Reload Profiling: 1791ms
-	BeginReloadAssembly (333ms)
+- Finished resetting the current domain, in  1.027 seconds
+Domain Reload Profiling: 2361ms
+	BeginReloadAssembly (576ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (93ms)
-	RebuildNativeTypeToScriptingClass (31ms)
-	initialDomainReloadingComplete (116ms)
-	LoadAllAssembliesAndSetupDomain (375ms)
-		LoadAssemblies (327ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (118ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (566ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (368ms)
-			TypeCache.Refresh (364ms)
-				TypeCache.ScanAssembly (336ms)
+		AnalyzeDomain (485ms)
+			TypeCache.Refresh (481ms)
+				TypeCache.ScanAssembly (448ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (844ms)
+	FinalizeReload (1028ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (738ms)
+		SetupLoadedEditorAssemblies (899ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (112ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (169ms)
-			ProcessInitializeOnLoadAttributes (320ms)
-			ProcessInitializeOnLoadMethodAttributes (128ms)
+			InitializePlatformSupportModulesInManaged (152ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (228ms)
+			ProcessInitializeOnLoadAttributes (338ms)
+			ProcessInitializeOnLoadMethodAttributes (169ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -158,318 +173,58 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.690 seconds
-Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+- Loaded All Assemblies, in  1.803 seconds
+Refreshing native plugins compatible for Editor in 3.12 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
-Package Manager log level set to [2]
+Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.692 seconds
-Domain Reload Profiling: 3372ms
-	BeginReloadAssembly (352ms)
+- Finished resetting the current domain, in  1.642 seconds
+Domain Reload Profiling: 3440ms
+	BeginReloadAssembly (383ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
+		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (55ms)
-	RebuildCommonClasses (75ms)
-	RebuildNativeTypeToScriptingClass (29ms)
-	initialDomainReloadingComplete (78ms)
-	LoadAllAssembliesAndSetupDomain (1146ms)
-		LoadAssemblies (757ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (84ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1227ms)
+		LoadAssemblies (801ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (586ms)
-			TypeCache.Refresh (421ms)
-				TypeCache.ScanAssembly (392ms)
-			BuildScriptInfoCaches (131ms)
-			ResolveRequiredComponents (23ms)
-	FinalizeReload (1693ms)
+		AnalyzeDomain (635ms)
+			TypeCache.Refresh (401ms)
+				TypeCache.ScanAssembly (370ms)
+			BuildScriptInfoCaches (192ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (1643ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1407ms)
+		SetupLoadedEditorAssemblies (1319ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (298ms)
-			ProcessInitializeOnLoadAttributes (859ms)
-			ProcessInitializeOnLoadMethodAttributes (229ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (304ms)
+			ProcessInitializeOnLoadAttributes (737ms)
+			ProcessInitializeOnLoadMethodAttributes (259ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.22 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.35 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6785 unused Assets / (4.6 MB). Loaded Objects now: 7502.
-Memory consumption went from 141.5 MB to 136.9 MB.
-Total: 16.938100 ms (FindLiveObjects: 1.204400 ms CreateObjectMapping: 0.966300 ms MarkObjects: 10.286000 ms  DeleteObjects: 4.478900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 187746.319274 seconds.
-  path: Assets/Animation/Weapon/Pistol 5/PistolIdle.anim
-  artifactKey: Guid(3aa49189cdd8acd479301c0ccfce4df9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Pistol 5/PistolIdle.anim using Guid(3aa49189cdd8acd479301c0ccfce4df9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51ee088311a1f5cfbb42d46f389cb2b9') in 0.4283309 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.735623 seconds.
-  path: Assets/Animation/Weapon/Pistol 6/PistolIdle.anim
-  artifactKey: Guid(4d36ad4b1bc33174b93e94a4d183e9dc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Pistol 6/PistolIdle.anim using Guid(4d36ad4b1bc33174b93e94a4d183e9dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ef0663ae6dc770ff30138a36b0d7aebc') in 0.0282992 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Animation/Weapon/Pistol 7
-  artifactKey: Guid(7a0dc123ad0783d4dbd5e5caa309bc80) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Pistol 7 using Guid(7a0dc123ad0783d4dbd5e5caa309bc80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '757b18262f62761875ee6fbfc296006e') in 0.0239725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Animation/Weapon/Pistol 6/PistolShoot.anim
-  artifactKey: Guid(334d075d126486142aaeb3a77d5a81ce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Pistol 6/PistolShoot.anim using Guid(334d075d126486142aaeb3a77d5a81ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2170a81598ab32c72c8dee9ca606521') in 0.0300587 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.769400 seconds.
-  path: Assets/Prefabs/Weapon/Pistol 3.prefab
-  artifactKey: Guid(655eae4a6965d3c47a0d611b2556ffdd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prefabs/Weapon/Pistol 3.prefab using Guid(655eae4a6965d3c47a0d611b2556ffdd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45f51ecdd06bc5e14149995470c37cd2') in 0.2079985 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Prefabs/Weapon/Pistol 5.prefab
-  artifactKey: Guid(b5cd551d528aa5e49913a87b8bbb18d2) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Prefabs/Weapon/Pistol 5.prefab using Guid(b5cd551d528aa5e49913a87b8bbb18d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f81389d15b1ecbb5837823d09ccc5752') in 0.0491695 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
-
-========================================================================
-Received Import Request.
-  Time since last request: 330.564303 seconds.
-  path: Assets/Animation/Weapon/Musket/PistolShoot.anim
-  artifactKey: Guid(63f92f46ed72c3a4e9a24c9073bb3699) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Musket/PistolShoot.anim using Guid(63f92f46ed72c3a4e9a24c9073bb3699) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '768b7112bf4e9c49e2b5c514c7458c99') in 0.0321123 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Animation/Weapon/Musket/PistolIdle.anim
-  artifactKey: Guid(607c5f78b51089b438ddfd288cf44e3f) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Musket/PistolIdle.anim using Guid(607c5f78b51089b438ddfd288cf44e3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32bfb406f9d45901ced80c7a77b3672d') in 0.0252884 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.084907 seconds.
-  path: Assets/Animation/Weapon/Gunner/Pistol.controller
-  artifactKey: Guid(a1e40704a8d993e4fb33b7ce68cca8ad) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Gunner/Pistol.controller using Guid(a1e40704a8d993e4fb33b7ce68cca8ad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc935fcda2e5183162ad74d61076b4dd') in 0.0304888 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Animation/Weapon/Gunner/PistolShoot.anim
-  artifactKey: Guid(b1e85815342f5b449a5765547ca4f43b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Gunner/PistolShoot.anim using Guid(b1e85815342f5b449a5765547ca4f43b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad44ae5e02f0965c3b44608cbcd17e44') in 0.0278903 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.117406 seconds.
-  path: Assets/Animation/Weapon/Sniper/PistolShoot.anim
-  artifactKey: Guid(2bc41726623c31f47ab03b60d6284c70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Sniper/PistolShoot.anim using Guid(2bc41726623c31f47ab03b60d6284c70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2928323fc9e1c205503eac8782fd0eb') in 0.0324665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Animation/Weapon/Sniper/PistolIdle.anim
-  artifactKey: Guid(81969a9d3f44d194b981bfef624a6570) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Sniper/PistolIdle.anim using Guid(81969a9d3f44d194b981bfef624a6570) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74d840e78a5cc2b5c4e847e325e5cbab') in 0.0275736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 26.829079 seconds.
-  path: Assets/Animation/Weapon/Pistol/PistolShoot.anim
-  artifactKey: Guid(8b869ae1f0992a341a6676482ecadf1d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Pistol/PistolShoot.anim using Guid(8b869ae1f0992a341a6676482ecadf1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '014481fa3b1f65bdf7f944eda9eafc95') in 0.0234273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Animation/Weapon/Musket/MusketShoot.anim
-  artifactKey: Guid(63f92f46ed72c3a4e9a24c9073bb3699) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Musket/MusketShoot.anim using Guid(63f92f46ed72c3a4e9a24c9073bb3699) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '643211c67c1bd738c19b6677b5784b77') in 0.0242782 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 139.469211 seconds.
-  path: Assets/Animation/Weapon/Gunner/GunnerIdle.anim
-  artifactKey: Guid(eaa0b5fd2efab414aa114c9b34221ab9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Gunner/GunnerIdle.anim using Guid(eaa0b5fd2efab414aa114c9b34221ab9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd73c7651faa96c2c230b37906d3df713') in 0.0295468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 109.716021 seconds.
-  path: Assets/Animation/Weapon/Minigun/PistolIdle.anim
-  artifactKey: Guid(4da802615b0e7b146b91fc02db9a537d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Minigun/PistolIdle.anim using Guid(4da802615b0e7b146b91fc02db9a537d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe6e478497f5b0eb14b1120f755e7e29') in 0.0275122 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Animation/Weapon/Minigun/Pistol.controller
-  artifactKey: Guid(59002cfa9919156478061505a3cd5b67) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Minigun/Pistol.controller using Guid(59002cfa9919156478061505a3cd5b67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ac6b098c9c1bdc0033295be284226b9') in 0.0233605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.722841 seconds.
-  path: Assets/Animation/Weapon/Shild/PistolShoot.anim
-  artifactKey: Guid(b19814b1b75a9874192edf4ff0084a62) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Shild/PistolShoot.anim using Guid(b19814b1b75a9874192edf4ff0084a62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '532ac2aaadc867efd431c806e7dfb653') in 0.0295035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Animation/Weapon/Shild/Pistol.controller
-  artifactKey: Guid(ca4cc735f7b4fbf47860e2dde1ee0c70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Shild/Pistol.controller using Guid(ca4cc735f7b4fbf47860e2dde1ee0c70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a81c94fa58023daaa4ec961862e4d45') in 0.0253747 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.647632 seconds.
-  path: Assets/Animation/Weapon/Shild/Shild.controller
-  artifactKey: Guid(ca4cc735f7b4fbf47860e2dde1ee0c70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Shild/Shild.controller using Guid(ca4cc735f7b4fbf47860e2dde1ee0c70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '664e2c1dd45e11022a8332b1015e9911') in 0.0285124 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.950891 seconds.
-  path: Assets/Animation/Weapon/Artillery/Pistol.controller
-  artifactKey: Guid(c1f92151f6683cd4999337ab4b7d8700) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Artillery/Pistol.controller using Guid(c1f92151f6683cd4999337ab4b7d8700) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4dffbfa53b7426957026eb4320b795a3') in 0.0319358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Animation/Weapon/Artillery/PistolIdle.anim
-  artifactKey: Guid(4d36ad4b1bc33174b93e94a4d183e9dc) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Artillery/PistolIdle.anim using Guid(4d36ad4b1bc33174b93e94a4d183e9dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03d4baba5cb33ff4cad6ab4c3debc243') in 0.0360886 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.201667 seconds.
-  path: Assets/Animation/Weapon/Shild/Shild.controller
-  artifactKey: Guid(ca4cc735f7b4fbf47860e2dde1ee0c70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Shild/Shild.controller using Guid(ca4cc735f7b4fbf47860e2dde1ee0c70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd71e10f9e372aaf88e09fec118ef9f8a') in 0.0257325 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.860825 seconds.
-  path: Assets/Animation/Weapon/Tank/PistolShoot.anim
-  artifactKey: Guid(a26954da12db6634bb02e43138683d6d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Tank/PistolShoot.anim using Guid(a26954da12db6634bb02e43138683d6d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd5f4f63896bd4a01c7f6d491461c373e') in 0.0268168 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Animation/Weapon/Tank/Pistol.controller
-  artifactKey: Guid(bed58a7c4f213c34d8d4ff68b06e4ccd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Tank/Pistol.controller using Guid(bed58a7c4f213c34d8d4ff68b06e4ccd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0e0d30bae026dfd24aef27705a7ae74') in 0.0238253 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.475733 seconds.
-  path: Assets/Animation/Weapon/Tank/Tank.controller
-  artifactKey: Guid(bed58a7c4f213c34d8d4ff68b06e4ccd) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Tank/Tank.controller using Guid(bed58a7c4f213c34d8d4ff68b06e4ccd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b505c93d89bd73456730fccb23fe6e0b') in 0.032863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.148163 seconds.
-  path: Assets/Animation/Weapon/Musket/MusketShoot.anim
-  artifactKey: Guid(63f92f46ed72c3a4e9a24c9073bb3699) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Musket/MusketShoot.anim using Guid(63f92f46ed72c3a4e9a24c9073bb3699) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3100abfaa17262338911090ad6d14c5d') in 0.0278495 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.542385 seconds.
-  path: Assets/Animation/Weapon/Pistol/PistolShoot.anim
-  artifactKey: Guid(8b869ae1f0992a341a6676482ecadf1d) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Pistol/PistolShoot.anim using Guid(8b869ae1f0992a341a6676482ecadf1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '184d32309e14f479dcd0612334221b7f') in 0.0268006 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Animation/Weapon/Gunner/GunnerShoot.anim
-  artifactKey: Guid(b1e85815342f5b449a5765547ca4f43b) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Gunner/GunnerShoot.anim using Guid(b1e85815342f5b449a5765547ca4f43b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '599d79322e82becbd96dfd3c330e3487') in 0.0237761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 445.685912 seconds.
-  path: Assets/Animation/Weapon/Artillery/ArtilleryShoot.anim
-  artifactKey: Guid(334d075d126486142aaeb3a77d5a81ce) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Artillery/ArtilleryShoot.anim using Guid(334d075d126486142aaeb3a77d5a81ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cc91d27a92c57c470131068c0547781a') in 0.0440499 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Animation/Weapon/Sniper/SniperShoot.anim
-  artifactKey: Guid(2bc41726623c31f47ab03b60d6284c70) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Sniper/SniperShoot.anim using Guid(2bc41726623c31f47ab03b60d6284c70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ea32a5ce15747bbf76142e0d1782fc9d') in 0.0401322 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000067 seconds.
-  path: Assets/Animation/Weapon/Shild/ShildIdle.anim
-  artifactKey: Guid(3aa49189cdd8acd479301c0ccfce4df9) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Shild/ShildIdle.anim using Guid(3aa49189cdd8acd479301c0ccfce4df9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '214060267bd2d81e2f7dbc344b7e6ab2') in 0.0392836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Animation/Weapon/Sniper/SniperIdle.anim
-  artifactKey: Guid(81969a9d3f44d194b981bfef624a6570) Importer(2089858483,192608db42251d675da83286b1cce702)
-Start importing Assets/Animation/Weapon/Sniper/SniperIdle.anim using Guid(81969a9d3f44d194b981bfef624a6570) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff551998c58bc27e3ddbe8f3831c8d0d') in 0.0389608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6888 unused Assets / (4.2 MB). Loaded Objects now: 7711.
+Memory consumption went from 154.7 MB to 150.6 MB.
+Total: 19.053700 ms (FindLiveObjects: 1.284600 ms CreateObjectMapping: 0.867000 ms MarkObjects: 11.489900 ms  DeleteObjects: 5.409200 ms)
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

@@ -12,8 +12,9 @@ GameObject:
   - component: {fileID: 3052353315946883400}
   - component: {fileID: 3403563196016456427}
   - component: {fileID: 7715698280788659845}
+  - component: {fileID: -7145656164349941303}
   m_Layer: 9
-  m_Name: Musket
+  m_Name: Sniper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -36,6 +37,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &3052353315946883400
 SpriteRenderer:
+  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -81,7 +83,8 @@ SpriteRenderer:
   m_SortingLayerID: 1301231585
   m_SortingLayer: 3
   m_SortingOrder: 1
-  m_Sprite: {fileID: -5737340078313841079, guid: 92c2dc515862ce947bd2621282dd7b02, type: 3}
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: -1496922236697126485, guid: 92c2dc515862ce947bd2621282dd7b02, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,7 +93,6 @@ SpriteRenderer:
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!50 &3403563196016456427
 Rigidbody2D:
@@ -129,7 +131,7 @@ Animator:
   m_GameObject: {fileID: 1043573747142181963}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ee35188c6810c7043b06293ae530d647, type: 2}
+  m_Controller: {fileID: 9100000, guid: 032853cb907d0b740bb57e4b2e889d37, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -141,3 +143,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-7145656164349941303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043573747142181963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4918e4f79b051da4cb4d002bb9aab84a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ShootAnimation

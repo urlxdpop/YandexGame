@@ -4,6 +4,8 @@ using UnityEngine;
 
 namespace Units.Base
 {
+
+    [SelectionBase]
     public class Base : MonoBehaviour, ICenterController
     {
         // Fields
@@ -13,7 +15,7 @@ namespace Units.Base
 
         // Properties
         public Side Side => side;
-        public Vector3 Pos => Vector3.zero;
+        public Vector3 Pos => transform.position;
 
         // Events
         public event EventHandler OnDeath;
