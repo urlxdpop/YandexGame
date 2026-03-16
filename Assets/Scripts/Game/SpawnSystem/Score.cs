@@ -2,11 +2,12 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Game.Spawner
+namespace Game.SpawnSystem
 {
     public class Score : MonoBehaviour
     {
         [SerializeField] private Text text;
+        [SerializeField] private float multiplier = 0.3f;
 
         private float _score;
         private float _addedInSecond;
@@ -40,7 +41,7 @@ namespace Game.Spawner
 
             waited = false;
             _score += _addedInSecond;
-            _addedInSecond += _addedInSecond < 300 ? 0.5f : 0;
+            _addedInSecond += _addedInSecond < 300 ? multiplier : 0;
         }
     }
 }

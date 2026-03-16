@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gunner
       objectReference: {fileID: 0}
+    - target: {fileID: 3403563196016456427, guid: 1ff5c5d7c49564945855c1115c46f6bb, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: 1ff5c5d7c49564945855c1115c46f6bb, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -158,6 +162,30 @@ PrefabInstance:
     - target: {fileID: 6663029896766491606, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: armor
       value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostHp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostAttack
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostDefence
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostAttackSpeed
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 7532914074410776651, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: gun

@@ -5,7 +5,7 @@ using System;
 
 namespace Units.Combat
 {
-    public class Attacking : MonoBehaviour
+    public class Attacking : MonoBehaviour, IAttackable
     {
         [SerializeField] private float damage;
         [SerializeField] private float attackCooldown;
@@ -33,6 +33,16 @@ namespace Units.Combat
         private void Update()
         {
             if (_isAttacking) Attack();
+        }
+
+        public void BoostAttack(float boost)
+        {
+            damage += boost;
+        }
+
+        public void BoostAttackSpeed(float boost)
+        {
+            attackCooldown -= boost;
         }
 
         private void Attack()

@@ -1,12 +1,14 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
 
-namespace Game.Spawner
+namespace Game.SpawnSystem
 {
     public class ReloadButton : MonoBehaviour
     {
-        [SerializeField] private float reloadTime = 1;
+        [SerializeField] private float reloadTime = 0.5f;
+        [SerializeField] private Spawner spawner;
 
         private float _currentReloadTime;
         private bool _isReloading;
@@ -17,12 +19,20 @@ namespace Game.Spawner
         private void Awake()
         {
             _button = GetComponent<Button>();
-            _img = transform.GetChild(0).GetComponent<RectTransform>();
+            foreach (Transform child in transform)
+            {
+                if (child.CompareTag("CoolDown"))
+                {
+                    _img = child.GetComponent<RectTransform>();
+                    break;
+                }
+            }
         }
 
         private void Start()
         {
-            _button.onClick.AddListener(StartReloading);
+            spawner.OnSpawn += StartReloading;
+
             _img.localScale = new(1, 0, 0);
         }
 
@@ -42,12 +52,17 @@ namespace Game.Spawner
             }
         }
 
-        public void StartReloading()
+        public void StartReloading(object o, EventArgs a)
         {
             if (_isReloading) return;
             _isReloading = true;
             _currentReloadTime = reloadTime;
             _button.interactable = false;
+        }
+
+        private void OnDestroy()
+        {
+            spawner.OnSpawn -= StartReloading;
         }
     }
 }

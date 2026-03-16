@@ -4,7 +4,7 @@ using System;
 namespace Units
 {
 
-    public class Hp : MonoBehaviour
+    public class Hp : MonoBehaviour, IHpable
     {
         [SerializeField] private float maxHp = 100f;
         [SerializeField] private float armor = 1f;
@@ -20,6 +20,17 @@ namespace Units
             _currentHp = maxHp;
             _centerController = GetComponentInParent<ICenterController>();
             _centerController.OnDamageTaken += TakeDamage;
+        }
+
+        public void BoostDefence(float boost)
+        {
+            armor += boost;
+        }
+
+        public void BoostHp(float boost)
+        {
+            maxHp += boost;
+            _currentHp += boost;
         }
 
         private void TakeDamage(float damage)

@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 8614345694956120884}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -441,7 +441,7 @@ GameObject:
   - component: {fileID: 1026932070481978854}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 4482545403955302149}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -990,7 +990,7 @@ GameObject:
   - component: {fileID: 7539105790959625854}
   m_Layer: 5
   m_Name: Image (3)
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 13689468020114506}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1140,7 +1140,7 @@ GameObject:
   - component: {fileID: 6342258828937658096}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 7171512152754837998}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1369,7 +1369,7 @@ GameObject:
   - component: {fileID: 7883242280689682103}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: CoolDown
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1562,6 +1562,10 @@ PrefabInstance:
       propertyPath: movingSpeed
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6153266080930083715, guid: 8ebb394488760044da223653b36ef71b, type: 3}
+      propertyPath: multiplier
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 6341869787711228582, guid: 8ebb394488760044da223653b36ef71b, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1717,7 +1721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3002e38f6e8689245991fa1c4d849165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
-  reloadTime: 1
+  reloadTime: 0.5
+  spawner: {fileID: 5908628426578541105}
 --- !u!224 &2034169338134502704 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2114203460998930022, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1740,7 +1745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3002e38f6e8689245991fa1c4d849165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
-  reloadTime: 1
+  reloadTime: 0.5
+  spawner: {fileID: 5908628426578541105}
 --- !u!224 &3472533745577151940 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3557019003055459986, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1769,6 +1775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
   reloadTime: 1
+  spawner: {fileID: 5908628426578541105}
 --- !u!1 &5707474804263708222 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5645540295381673320, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1787,6 +1794,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
   reloadTime: 1
+  spawner: {fileID: 5908628426578541105}
+--- !u!114 &5908628426578541105 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5805791772306880871, guid: 8ebb394488760044da223653b36ef71b, type: 3}
+  m_PrefabInstance: {fileID: 103014227681313622}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4598d88dbcde5cf458c8525e483f6102, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spawner
 --- !u!224 &6049376696088601564 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 5953282520956182666, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1826,6 +1845,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
   reloadTime: 1
+  spawner: {fileID: 5908628426578541105}
 --- !u!224 &6941213663871309087 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7005876891313935945, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1848,7 +1868,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3002e38f6e8689245991fa1c4d849165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
-  reloadTime: 1
+  reloadTime: 0.5
+  spawner: {fileID: 5908628426578541105}
 --- !u!1 &7327475622231180104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7268131011553984542, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1867,6 +1888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
   reloadTime: 1
+  spawner: {fileID: 5908628426578541105}
 --- !u!4 &7392054987910468937 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7491773422961120799, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1890,6 +1912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
   reloadTime: 1
+  spawner: {fileID: 5908628426578541105}
 --- !u!224 &8778702802164859712 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8699209878054551574, guid: 8ebb394488760044da223653b36ef71b, type: 3}
@@ -1976,6 +1999,14 @@ PrefabInstance:
     - target: {fileID: 2972200132353669688, guid: 4df8b34baa2aec2429d483a204abca33, type: 3}
       propertyPath: minSpawnY
       value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2972200132353669688, guid: 4df8b34baa2aec2429d483a204abca33, type: 3}
+      propertyPath: movingSpeed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6695595027356489319, guid: 4df8b34baa2aec2429d483a204abca33, type: 3}
+      propertyPath: multiplier
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7752818926328379793, guid: 4df8b34baa2aec2429d483a204abca33, type: 3}
       propertyPath: m_Name

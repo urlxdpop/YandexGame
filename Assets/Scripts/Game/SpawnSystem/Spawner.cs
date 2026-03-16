@@ -1,7 +1,9 @@
 using DG.Tweening;
+using System;
+using Units.Warrior;
 using UnityEngine;
 
-namespace Game.Spawner
+namespace Game.SpawnSystem
 {
     public class Spawner : MonoBehaviour
     {
@@ -11,6 +13,8 @@ namespace Game.Spawner
         [SerializeField] private Score score;
         
         private bool _isMoving;
+        
+        public event EventHandler OnSpawn;
 
         private void Update()
         {
@@ -20,14 +24,21 @@ namespace Game.Spawner
             }
         }
 
-        public void Spawn(GameObject obj, float score)
+        public void Spawn(GameObject obj, float score, BoostType[] boostTypes)
         {
             if (this.score.ScoreValue < score)
             {
                 return;
             }
+
+            OnSpawn?.Invoke(this, EventArgs.Empty);
             this.score.GiveScore(score);
-            Instantiate(obj, transform.position, Quaternion.identity);
+            GameObject warrior = Instantiate(obj, transform.position, Quaternion.identity);
+
+            if (warrior.TryGetComponent(out IBoostable boost))
+            {
+                boost.SetBoost(boostTypes);
+            }
         }
 
         private void Move()

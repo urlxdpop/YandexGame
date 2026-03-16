@@ -39,6 +39,7 @@ namespace Units.Warrior
 
         private WarriorState _state;
         private float _lastDamage;
+        private Vector3 _enemyPos;
 
         private ICenterController _opponent;
         private readonly List<ICenterController> _targets = new();
@@ -47,6 +48,7 @@ namespace Units.Warrior
         public Side Side => side;
         public ICenterController EnemyWarrior => _opponent;
         public Vector3 Pos => transform.position;
+        public Vector3 EnemyPos => _enemyPos;
         public float LastDamage => _lastDamage;
 
         //Events
@@ -78,6 +80,7 @@ namespace Units.Warrior
             if (_targets.Count > 0)
             {
                 _opponent = _targets[0];
+                _enemyPos = _opponent.Pos;
                 SetState(WarriorState.Attacking);
             } else
             {

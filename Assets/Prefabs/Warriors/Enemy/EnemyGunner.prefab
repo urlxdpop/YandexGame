@@ -187,6 +187,30 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 0dc5004bd06dc4a4eafa40f098b243ee, type: 2}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostHp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostAttack
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostDefence
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostAttackSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 7676347461027611709, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: gun
       value: 

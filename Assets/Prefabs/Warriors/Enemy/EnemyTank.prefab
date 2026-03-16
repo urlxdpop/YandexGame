@@ -12,6 +12,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tank
       objectReference: {fileID: 0}
+    - target: {fileID: 7115690582256256801, guid: 631d247f55c41994e8435348044172e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.507
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115690582256256801, guid: 631d247f55c41994e8435348044172e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.475
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115690582256256801, guid: 631d247f55c41994e8435348044172e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: 631d247f55c41994e8435348044172e9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -193,7 +205,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6807826677811230624, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: armor
-      value: 2.1
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6807826677811230624, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: maxHp
@@ -215,6 +227,30 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 7f67f7861cde97d4292116238cb412e8, type: 2}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostHp
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostAttack
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostDefence
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7444128748098790873, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
+      propertyPath: boostAttackSpeed
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7676347461027611709, guid: 4b4bb2801ba9a584d8851302c9162528, type: 3}
       propertyPath: gun
       value: 

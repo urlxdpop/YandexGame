@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4598d88dbcde5cf458c8525e483f6102, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Spawner
-  _minSpawnY: -3.4
-  _maxSpawnY: 0.23
-  _movingSpeed: 5
+  minSpawnY: 0
+  maxSpawnY: 0
+  movingSpeed: 0
+  score: {fileID: 0}

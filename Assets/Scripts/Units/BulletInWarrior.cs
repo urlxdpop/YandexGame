@@ -7,7 +7,7 @@ namespace Units
     public class BulletInWarrior : MonoBehaviour
     {
         private ICenterController _centerController;
-        private Attacking _attacking;
+        private IAttackable _attacking;
 
         private void Awake()
         {
@@ -24,7 +24,7 @@ namespace Units
         {
             if (_centerController.EnemyWarrior != null)
             {
-                transform.position = _centerController.EnemyWarrior.Pos;
+                transform.position = _centerController.EnemyPos;
             }
         }
 

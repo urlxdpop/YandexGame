@@ -1,4 +1,4 @@
-using Game.Spawner;
+using Game.SpawnSystem;
 using UnityEngine;
 
 namespace Bot
@@ -7,9 +7,9 @@ namespace Bot
     public class BotSpawnWarrior : MonoBehaviour
     {
         private SpawnWarriors _spawnWarriors;
-        
+
         private int _randomWarrior;
-        private int _maxRandomWarriors;
+        private int _maxRandomWarrior;
         private float _timeToSpawn;
         private float _currentTimeToSpawn;
 
@@ -17,8 +17,10 @@ namespace Bot
 
         private void Awake()
         {
+
+            _currentTimeToSpawn = 5;
             _spawnWarriors = GetComponent<SpawnWarriors>();
-            _maxRandomWarriors = 1;
+            _maxRandomWarrior = 1;
         }
 
         private void Update()
@@ -27,9 +29,8 @@ namespace Bot
             {
                 SpawnRandomWarrior();
                 _currentTimeToSpawn = 0;
-                _timeToSpawn = Random.Range(1, 4);
-            }
-            else
+                _timeToSpawn = Random.Range(1, 3);
+            } else
             {
                 _currentTimeToSpawn += Time.deltaTime;
             }
@@ -37,7 +38,7 @@ namespace Bot
 
         private void SpawnRandomWarrior()
         {
-            _randomWarrior = Random.Range(0, _maxRandomWarriors);
+            _randomWarrior = Random.Range(0, _maxRandomWarrior);
             switch (_randomWarrior)
             {
                 case 0:
@@ -65,9 +66,9 @@ namespace Bot
                     _spawnWarriors.ArtillerySpawn();
                     break;
             }
-            if (_maxRandomWarriors < MaxRandomWarriors && _randomWarrior + 1 == _maxRandomWarriors)
+            if (_maxRandomWarrior < MaxRandomWarriors && _randomWarrior + 1 == _maxRandomWarrior)
             {
-                _maxRandomWarriors++;
+                _maxRandomWarrior++;
             }
         }
     }

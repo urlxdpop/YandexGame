@@ -110,11 +110,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6663029896766491606, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: armor
-      value: 2.1
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6663029896766491606, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: maxHp
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostHp
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostRange
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostAttack
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostDefence
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostAttackSpeed
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7364994127061435433, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: m_Sprite
@@ -162,6 +186,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tank
       objectReference: {fileID: 0}
+    - target: {fileID: 3403563196016456427, guid: 631d247f55c41994e8435348044172e9, type: 3}
+      propertyPath: m_BodyType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7115690582256256801, guid: 631d247f55c41994e8435348044172e9, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -170,13 +198,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 7115690582256256801, guid: 631d247f55c41994e8435348044172e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.498
+      objectReference: {fileID: 0}
+    - target: {fileID: 7115690582256256801, guid: 631d247f55c41994e8435348044172e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.468
+      objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: 631d247f55c41994e8435348044172e9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: 631d247f55c41994e8435348044172e9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 8265628392799148011, guid: 631d247f55c41994e8435348044172e9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -213,28 +249,8 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2027611099702759143, guid: 631d247f55c41994e8435348044172e9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5837077808105519789}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 631d247f55c41994e8435348044172e9, type: 3}
---- !u!1 &3052096453122891368 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2027611099702759143, guid: 631d247f55c41994e8435348044172e9, type: 3}
-  m_PrefabInstance: {fileID: 3925093786676531343}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5837077808105519789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3052096453122891368}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fca7fe00fd48f034782043110ec9594d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BulletInWarrior
 --- !u!1 &4036132139872801988 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1043573747142181963, guid: 631d247f55c41994e8435348044172e9, type: 3}

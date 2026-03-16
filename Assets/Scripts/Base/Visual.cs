@@ -7,7 +7,7 @@ namespace Units.Base
     public class Visual : MonoBehaviour
     {
         private Animator _animator;
-        private Hp _hp;
+        private IHpable _hp;
 
         private const string HP = "HP";
 

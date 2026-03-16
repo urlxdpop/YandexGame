@@ -55,8 +55,9 @@ namespace Units.Warrior
 
         private void Death()
         {
-            _lastDamage = _centerController.LastDamage;
+            _lastDamage = Mathf.Max(10, _centerController.LastDamage);
 
+            gun.GetComponent<Animator>().enabled = false;
             Rigidbody2D rb = gun.GetComponent<Rigidbody2D>();
             rb.bodyType = RigidbodyType2D.Dynamic;
             rb.AddForce(new Vector2(5 * _impulse, Mathf.Abs(2 * _impulse)) * _lastDamage);

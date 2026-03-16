@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 1411024096210044437}
   - component: {fileID: 2128735463815784008}
   - component: {fileID: 6807826677811230624}
+  - component: {fileID: 7444128748098790873}
   m_Layer: 9
   m_Name: Warrior
   m_TagString: Untagged
@@ -250,6 +251,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Hp
   maxHp: 100
   armor: 1
+--- !u!114 &7444128748098790873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6077036162060753710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ec664f3a4d2f4b4a9956730616580d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Units.Warrior.Boost
+  boostAttack: 0
+  boostRange: 0
+  boostSpeed: 0
+  boostAttackSpeed: 0
+  boostDefence: 0
+  boostHp: 0
+  boostCollider: {fileID: 6532330016934278092}
 --- !u!1 &6163612612936818807
 GameObject:
   m_ObjectHideFlags: 0

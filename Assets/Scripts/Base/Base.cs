@@ -25,6 +25,7 @@ namespace Units.Base
         public event Action<WarriorState> OnStateChanged { add { } remove { } }
         public ICenterController EnemyWarrior => null;
         public float LastDamage => 0;
+        public Vector3 EnemyPos => Vector3.zero;
 
         private void OnValidate()
         {

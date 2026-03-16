@@ -10,7 +10,7 @@ namespace Units
     {
         private SpriteRenderer _spriteRenderer;
         private Animator _animator;
-        private Attacking _attacking;
+        private IAttackable _attacking;
 
         private const string SHOOT = "Shoot";
 

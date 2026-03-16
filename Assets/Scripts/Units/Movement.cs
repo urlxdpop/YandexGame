@@ -3,14 +3,14 @@ using Units.Warrior;
 
 namespace Units.Movement
 {
-    public class Movement : MonoBehaviour
+    public class Movement : MonoBehaviour, IMovable
     {
         [SerializeField] private float speed = 5f;
 
         private Vector2 _direction;
         private bool _isMoving;
 
-        ICenterController _centerControler;
+        private ICenterController _centerControler;
 
         private void Awake()
         {
@@ -29,6 +29,11 @@ namespace Units.Movement
         private void Update()
         {
             if (_isMoving) Moving();
+        }
+
+        public void BoostSpeed(float boost)
+        {
+            this.speed += boost;
         }
 
         private void Moving()

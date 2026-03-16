@@ -10,8 +10,8 @@ namespace Game
         [SerializeField] private GameObject Base;
         [SerializeField] private GameObject EnemyBase;
 
-        private Hp _baseHp;
-        private Hp _enemyBaseHp;
+        private IHpable _baseHp;
+        private IHpable _enemyBaseHp;
 
         public event EventHandler OnPlayerWin;
         public event EventHandler OnEnemyWin;

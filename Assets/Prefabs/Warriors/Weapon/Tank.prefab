@@ -282,8 +282,28 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3143840991351155012, guid: 8bf397220f1a5354d895f3f0777d5820, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7137009723640830108}
   m_SourcePrefab: {fileID: 100100000, guid: 8bf397220f1a5354d895f3f0777d5820, type: 3}
+--- !u!1 &2027611099702759143 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3143840991351155012, guid: 8bf397220f1a5354d895f3f0777d5820, type: 3}
+  m_PrefabInstance: {fileID: 3999952060750505891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7137009723640830108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027611099702759143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fca7fe00fd48f034782043110ec9594d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Units.BulletInWarrior
 --- !u!4 &5837047745918120831 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7387016968073745628, guid: 8bf397220f1a5354d895f3f0777d5820, type: 3}

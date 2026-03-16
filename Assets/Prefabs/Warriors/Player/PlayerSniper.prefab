@@ -84,6 +84,30 @@ PrefabInstance:
       propertyPath: armor
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostHp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostRange
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostSpeed
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostAttack
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostDefence
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7296763297263327663, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
+      propertyPath: boostAttackSpeed
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7532914074410776651, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: gun
       value: 
