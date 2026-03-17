@@ -11,7 +11,8 @@ namespace Game.SpawnSystem
         Speed,
         AttackSpeed,
         Defence,
-        Hp
+        Hp,
+        None
     }
 
     public class Boosts : MonoBehaviour
@@ -37,6 +38,11 @@ namespace Game.SpawnSystem
         private void Start()
         {
             _boostsChoose = new BoostType[NumBoostsTypes / 2];
+            for (int i = 0; i < _boostsChoose.Length; i++)
+            {
+                _boostsChoose[i] = BoostType.None;
+            }
+
             _boostsType = (BoostType[])System.Enum.GetValues(typeof(BoostType));
             ShuffleBoostType();
             _timerToBoost = GetComponentInParent<TimerToBoost>();
@@ -78,7 +84,7 @@ namespace Game.SpawnSystem
 
         private void ShuffleBoostType()
         {
-            for (int i = _boostsType.Length - 1; i > 0; i--)
+            for (int i = _boostsType.Length - 2; i > 0; i--)
             {
                 int j = Random.Range(0, i + 1);
                 (_boostsType[j], _boostsType[i]) = (_boostsType[i], _boostsType[j]);
