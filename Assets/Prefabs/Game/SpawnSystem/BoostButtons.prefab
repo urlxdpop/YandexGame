@@ -270,8 +270,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6622607155787743686}
-        m_TargetAssemblyTypeName: Game.SpawnSystem.Boosts, Assembly-CSharp
+      - m_Target: {fileID: 8223602097380096987}
+        m_TargetAssemblyTypeName: Game.SpawnSystem.BoostSelector, Assembly-CSharp
         m_MethodName: RightButton
         m_Mode: 1
         m_Arguments:
@@ -477,8 +477,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 6622607155787743686}
-        m_TargetAssemblyTypeName: Game.SpawnSystem.Boosts, Assembly-CSharp
+      - m_Target: {fileID: 8223602097380096987}
+        m_TargetAssemblyTypeName: Game.SpawnSystem.BoostSelector, Assembly-CSharp
         m_MethodName: LeftButton
         m_Mode: 1
         m_Arguments:
@@ -498,7 +498,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7978995652205038085}
-  - component: {fileID: 6622607155787743686}
+  - component: {fileID: 8223602097380096987}
+  - component: {fileID: 8493437638329969191}
   m_Layer: 0
   m_Name: BoostButtons
   m_TagString: Untagged
@@ -526,7 +527,7 @@ Transform:
   - {fileID: 8149699541478990248}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6622607155787743686
+--- !u!114 &8223602097380096987
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -535,10 +536,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 9108201912565016131}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f297cb15537176748955cef8728fe108, type: 3}
+  m_Script: {fileID: 11500000, guid: 40214a2f31109974aa59f3b39d01a1cf, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Game.SpawnSystem.Boosts
-  _boostImages:
+  m_EditorClassIdentifier: Assembly-CSharp::Game.SpawnSystem.BoostSelector
+  _warriorType: 0
+--- !u!114 &8493437638329969191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9108201912565016131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 032730f07d0355f408c0d6c8e714fda9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Game.SpawnSystem.VisualBoostButtons
+  _boostSprites:
   - {fileID: 8805428519720713574, guid: 9e8468cd02db8df448da899e1ed64b17, type: 3}
   - {fileID: 167165189, guid: 9e8468cd02db8df448da899e1ed64b17, type: 3}
   - {fileID: -1652639897, guid: 9e8468cd02db8df448da899e1ed64b17, type: 3}
@@ -551,4 +565,4 @@ MonoBehaviour:
   - {fileID: 9085991776492014250}
   _rightButton: {fileID: 7247310119792649238}
   _leftButton: {fileID: 8511374762283019523}
-  _warriorType: 0
+  _boostSelector: {fileID: 8223602097380096987}

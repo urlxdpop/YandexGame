@@ -227,3 +227,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Game.Spawner.Score
   text: {fileID: 4196069465571531703}
+  multiplier: 1

@@ -72,7 +72,7 @@ namespace Game.SpawnSystem
         private BoostType[] GetBoostTypes(WarriorType warriorType)
         {
             BoostType[] boostTypes = new BoostType[3];
-            Boosts[] boosts = GetComponentsInChildren<Boosts>();
+            BoostSelector[] boosts = GetComponentsInChildren<BoostSelector>();
 
             for (int i = 0; i < boosts.Length; i++)
             {

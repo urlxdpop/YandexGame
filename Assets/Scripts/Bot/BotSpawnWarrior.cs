@@ -7,6 +7,7 @@ namespace Bot
     public class BotSpawnWarrior : MonoBehaviour
     {
         private SpawnWarriors _spawnWarriors;
+        private IBoostSelectable[] _boostSelectables;
 
         private int _randomWarrior;
         private int _maxRandomWarrior;
@@ -17,10 +18,19 @@ namespace Bot
 
         private void Awake()
         {
+            _boostSelectables = GetComponentsInChildren<IBoostSelectable>();
 
             _currentTimeToSpawn = 5;
             _spawnWarriors = GetComponent<SpawnWarriors>();
             _maxRandomWarrior = 1;
+        }
+
+        private void Start()
+        {
+            foreach(var boostSelectable in _boostSelectables)
+            {
+                boostSelectable.OnReadyChoose += BoostSelectable_OnReadyChoose;
+            }
         }
 
         private void Update()
@@ -69,6 +79,18 @@ namespace Bot
             if (_maxRandomWarrior < MaxRandomWarriors && _randomWarrior + 1 == _maxRandomWarrior)
             {
                 _maxRandomWarrior++;
+            }
+        }
+
+        private void BoostSelectable_OnReadyChoose(IBoostSelectable boostSelectable)
+        {
+            float rand = Random.Range(0, 2);
+            if (rand < 1)
+            {
+                boostSelectable.LeftButton();
+            } else
+            {
+                boostSelectable.RightButton();
             }
         }
     }

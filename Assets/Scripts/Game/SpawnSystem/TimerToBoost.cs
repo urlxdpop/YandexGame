@@ -6,6 +6,17 @@ using UnityEngine;
 
 namespace Game.SpawnSystem
 {
+    public enum  BoostType
+    {
+        Damage,
+        Range,
+        Speed,
+        AttackSpeed,
+        Defence,
+        Hp,
+        None
+    }
+
     public class TimerToBoost : MonoBehaviour
     {
         private WarriorType[] _warriorNext;
@@ -24,7 +35,7 @@ namespace Game.SpawnSystem
             _warriorNext = new WarriorType[_numWarriorsTypes];
 
             _currentWarriorIndex = _numWarriorsTypes - 1;
-            _timeToGetBoost = 20f;
+            _timeToGetBoost = 1f;
             _currentTimeToGetBoost = 0;
 
             ShuffleWarriorType();

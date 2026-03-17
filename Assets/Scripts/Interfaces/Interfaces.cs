@@ -44,3 +44,11 @@ public interface IBoostable
 {
     public void SetBoost(BoostType[] boost);
 }
+
+public interface IBoostSelectable
+{
+    public event Action<IBoostSelectable> OnReadyChoose;
+
+    public void RightButton();
+    public void LeftButton();
+}
