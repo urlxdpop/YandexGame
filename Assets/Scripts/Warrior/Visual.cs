@@ -13,6 +13,7 @@ namespace Units.Warrior
         private Animator _animator;
         private SpriteRenderer _spriteRenderer;
         private ICenterController _centerController;
+        private AudioSource _dead;
 
         private float _lastDamage = 10;
         private float _impulse;
@@ -27,6 +28,7 @@ namespace Units.Warrior
             _animator = GetComponent<Animator>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
             _centerController = GetComponentInParent<ICenterController>();
+            _dead = GetComponent<AudioSource>();
 
             // Subscribe to events
             _centerController.OnStateChanged += CenterController_OnStateChanged;
@@ -48,13 +50,14 @@ namespace Units.Warrior
                     break;
                 case WarriorState.Dead:
                     Death();
-                    _animator.SetTrigger(DEATH);
                     break;
             }
         }
 
         private void Death()
         {
+            _dead.Play();
+            _animator.SetTrigger(DEATH);
             _lastDamage = Mathf.Max(10, _centerController.LastDamage);
 
             gun.GetComponent<Animator>().enabled = false;

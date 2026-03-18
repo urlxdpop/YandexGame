@@ -1765,7 +1765,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3002e38f6e8689245991fa1c4d849165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
-  reloadTime: 0.5
+  reloadTime: 1
   spawner: {fileID: 5908628426578541105}
 --- !u!224 &2034169338134502704 stripped
 RectTransform:
@@ -1789,7 +1789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3002e38f6e8689245991fa1c4d849165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
-  reloadTime: 0.5
+  reloadTime: 1
   spawner: {fileID: 5908628426578541105}
 --- !u!224 &3472533745577151940 stripped
 RectTransform:
@@ -1912,7 +1912,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3002e38f6e8689245991fa1c4d849165, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReloadButton
-  reloadTime: 0.5
+  reloadTime: 1
   spawner: {fileID: 5908628426578541105}
 --- !u!1 &7327475622231180104 stripped
 GameObject:

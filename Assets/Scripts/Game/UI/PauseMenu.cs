@@ -1,3 +1,4 @@
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -62,6 +63,7 @@ namespace Game.UI
         public void LoadMenu()
         {
             Time.timeScale = 1f;
+            DOTween.KillAll();
             UnityEngine.SceneManagement.SceneManager.LoadScene(MenuScene);
         }
     }

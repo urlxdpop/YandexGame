@@ -15,6 +15,9 @@ namespace Units.Combat
         [SerializeField] private bool isAreaDamage;
         [SerializeField] private float areaRadius;
 
+        [Header("Sounds")]
+        [SerializeField] private AudioSource audioSource;
+
         private bool _isAttacking;
         private float _attackTimer;
         private ICenterController _centerController;
@@ -27,7 +30,7 @@ namespace Units.Combat
 
             _centerController.OnStateChanged += CenterController_OnAttack;
 
-            _attackTimer = attackCooldown;
+            _attackTimer = CoolDown();
         }
 
         private void Update()
@@ -58,6 +61,8 @@ namespace Units.Combat
                     {
                         _centerController.EnemyWarrior.TakeDamage(damage);
                     }
+
+                    audioSource.Play();
                     OnAttack?.Invoke(this, EventArgs.Empty);
                 }
 
@@ -91,8 +96,13 @@ namespace Units.Combat
 
             if (!_isAttacking)
             {
-                _attackTimer = attackCooldown;
+                _attackTimer = CoolDown();
             }
+        }
+
+        private float CoolDown()
+        {
+            return UnityEngine.Random.Range(attackCooldown/1.2f, attackCooldown*1.2f);
         }
 
         private void OnDestroy()
