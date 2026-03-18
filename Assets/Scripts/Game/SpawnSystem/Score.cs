@@ -8,6 +8,7 @@ namespace Game.SpawnSystem
     {
         [SerializeField] private Text text;
         [SerializeField] private float multiplier = 0.3f;
+        [SerializeField] private float startScore = 0;
 
         private float _score;
         private float _addedInSecond;
@@ -17,7 +18,7 @@ namespace Game.SpawnSystem
 
         private void Start()
         {
-            _score = 0;
+            _score = startScore;
             _addedInSecond = 5;
         }
 

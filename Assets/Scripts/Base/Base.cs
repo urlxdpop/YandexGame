@@ -45,6 +45,7 @@ namespace Units.Base
         {
             _isDead = true;
             OnDeath?.Invoke(this, EventArgs.Empty);
+            GetComponent<Collider2D>().enabled = false;
         }
 
         public void DestroyYourself()

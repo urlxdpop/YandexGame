@@ -19,10 +19,10 @@ namespace Game.SpawnSystem
 
     public class TimerToBoost : MonoBehaviour
     {
+        [SerializeField] private float _timeToGetBoost = 20f;
         private WarriorType[] _warriorNext;
 
         private int _currentWarriorIndex;
-        private float _timeToGetBoost;
         private float _currentTimeToGetBoost;
         private int _numRebots = 0;
 
@@ -35,7 +35,6 @@ namespace Game.SpawnSystem
             _warriorNext = new WarriorType[_numWarriorsTypes];
 
             _currentWarriorIndex = _numWarriorsTypes - 1;
-            _timeToGetBoost = 20f;
             _currentTimeToGetBoost = 0;
 
             ShuffleWarriorType();

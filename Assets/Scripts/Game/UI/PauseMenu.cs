@@ -9,6 +9,7 @@ namespace Game.UI
         [SerializeField] private InputAction pauseAction;
 
         private bool _isPaused;
+        private bool _isPlaying = true;
 
         private const string MenuScene = "MainMenu";
 
@@ -24,7 +25,7 @@ namespace Game.UI
 
         private void Update()
         {
-            if (pauseAction.triggered)
+            if (pauseAction.triggered && _isPlaying)
             {
                 TogglePause();
             }
@@ -36,6 +37,11 @@ namespace Game.UI
                 Resume();
             else
                 Pause();
+        }
+
+        public void Final()
+        {
+            _isPlaying = false;
         }
 
         public void Resume()
@@ -50,6 +56,7 @@ namespace Game.UI
             _pauseMenuUI.SetActive(true);
             Time.timeScale = 0f;
             _isPaused = true;
+            AudioListener.pause = true;
         }
 
         public void LoadMenu()

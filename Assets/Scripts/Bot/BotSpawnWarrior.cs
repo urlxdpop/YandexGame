@@ -6,21 +6,24 @@ namespace Bot
     [RequireComponent(typeof(SpawnWarriors))]
     public class BotSpawnWarrior : MonoBehaviour
     {
+        [SerializeField] private float _minTimeToSpawn;
+        [SerializeField] private float _maxTimeToSpawn;
+
         private SpawnWarriors _spawnWarriors;
         private IBoostSelectable[] _boostSelectables;
 
         private int _randomWarrior;
         private int _maxRandomWarrior;
-        private float _timeToSpawn;
+        
         private float _currentTimeToSpawn;
-
+        private float _timeToSpawn;
         private const int MaxRandomWarriors = 9;
 
         private void Awake()
         {
             _boostSelectables = GetComponentsInChildren<IBoostSelectable>();
 
-            _currentTimeToSpawn = 5;
+            _timeToSpawn = 3;
             _spawnWarriors = GetComponent<SpawnWarriors>();
             _maxRandomWarrior = 1;
         }
@@ -39,7 +42,7 @@ namespace Bot
             {
                 SpawnRandomWarrior();
                 _currentTimeToSpawn = 0;
-                _timeToSpawn = Random.Range(1, 3);
+                _timeToSpawn = Random.Range(_minTimeToSpawn, _maxTimeToSpawn);
             } else
             {
                 _currentTimeToSpawn += Time.deltaTime;
