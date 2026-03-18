@@ -34,7 +34,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2271887379994942014, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: areaRadius
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2271887379994942014, guid: 0b69d0e314d2de34cae72dc02b1c91c9, type: 3}
       propertyPath: isAreaDamage

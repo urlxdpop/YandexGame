@@ -35,7 +35,7 @@ namespace Game.SpawnSystem
             _warriorNext = new WarriorType[_numWarriorsTypes];
 
             _currentWarriorIndex = _numWarriorsTypes - 1;
-            _timeToGetBoost = 1f;
+            _timeToGetBoost = 20f;
             _currentTimeToGetBoost = 0;
 
             ShuffleWarriorType();
