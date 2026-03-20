@@ -137,11 +137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3808725748533823066, guid: 876185c67d2bed2428d82545f9af026b, type: 3}
       propertyPath: _maxTimeToSpawn
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3808725748533823066, guid: 876185c67d2bed2428d82545f9af026b, type: 3}
       propertyPath: _minTimeToSpawn
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 5741519716260715428, guid: 876185c67d2bed2428d82545f9af026b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -183,13 +183,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7045583281013652048, guid: 876185c67d2bed2428d82545f9af026b, type: 3}
+      propertyPath: _timeToGetBoost
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 7886158951289220932, guid: 876185c67d2bed2428d82545f9af026b, type: 3}
       propertyPath: multiplier
-      value: 0.32
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7886158951289220932, guid: 876185c67d2bed2428d82545f9af026b, type: 3}
       propertyPath: startScore
-      value: 5
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

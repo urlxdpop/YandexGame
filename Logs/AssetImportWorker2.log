@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-19T04:43:40.7926979Z"
 Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-18T05:15:16.2540672Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 32472 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-18T05:15:16Z
+Date: 2026-03-19T04:43:40Z
 
 COMMAND LINE ARGUMENTS:
 D:\Nikita\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
@@ -19,7 +19,9 @@ D:/Nikita/Unity/myProject/YandexGame
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-51852
+52777
+-licensingIpc
+LicenseClient-User
 -job-worker-count
 5
 -background-job-worker-count
@@ -65,12 +67,12 @@ D:/Nikita/Unity/myProject/YandexGame
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [18116]  Target information:
+Player connection [17268]  Target information:
 
-Player connection [18116]  * "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 1000179584 [EditorId] 1000179584 [Version] 1048832 [Id] WindowsEditor(7,NIKITA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17268]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 1148279945 [EditorId] 1148279945 [Version] 1048832 [Id] WindowsEditor(7,NIKITA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18116] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18116] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17268] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17268] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -82,7 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 10.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 521.08 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -98,65 +100,65 @@ Initialize mono
 Mono path[0] = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005954 seconds.
-- Loaded All Assemblies, in  1.102 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
 [Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-03-18T05:15:19.1810244Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-03-19T04:44:16.2848363Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              12cb720d49d34b0e84b4e27d568a5376
-  Correlation Id:          6933c72c7939929762cc95dae1d2d905
-  External correlation Id: 384195233083977753
+  Session Id:              7c728064bd4b4338a4cb5f2fe76116b1
+  Correlation Id:          e6c1b10e148fa61adb8c8330655d601a
+  External correlation Id: 4670630294267050272
   Machine Id:              PjmiVTPYQeyv+WZ33Tq9j//byBU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.27s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-03-18T05:15:19.4557049Z"
-[Licensing::Module] Licensing Background thread has ended after 3.20s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.01s, validation: 0.01s, handshake: 1.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-03-19T04:44:17.3279794Z"
+[Licensing::Module] Licensing Background thread has ended after 36.54s
+Registering precompiled unity dll's ...
+Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 1.716432 seconds.
+- Loaded All Assemblies, in 46.698 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.081 seconds
-Domain Reload Profiling: 2178ms
-	BeginReloadAssembly (328ms)
+- Finished resetting the current domain, in  2.351 seconds
+Domain Reload Profiling: 49039ms
+	BeginReloadAssembly (36745ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (106ms)
-	RebuildNativeTypeToScriptingClass (42ms)
-	initialDomainReloadingComplete (125ms)
-	LoadAllAssembliesAndSetupDomain (494ms)
-		LoadAssemblies (324ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (1764ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (1940ms)
+	LoadAllAssembliesAndSetupDomain (6166ms)
+		LoadAssemblies (36556ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (485ms)
-			TypeCache.Refresh (482ms)
-				TypeCache.ScanAssembly (448ms)
-			BuildScriptInfoCaches (0ms)
+		AnalyzeDomain (6135ms)
+			TypeCache.Refresh (6128ms)
+				TypeCache.ScanAssembly (5097ms)
+			BuildScriptInfoCaches (2ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1082ms)
+	FinalizeReload (2352ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (954ms)
+		SetupLoadedEditorAssemblies (2091ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (151ms)
-			SetLoadedEditorAssemblies (10ms)
-			BeforeProcessingInitializeOnLoad (233ms)
-			ProcessInitializeOnLoadAttributes (385ms)
-			ProcessInitializeOnLoadMethodAttributes (175ms)
+			InitializePlatformSupportModulesInManaged (284ms)
+			SetLoadedEditorAssemblies (25ms)
+			BeforeProcessingInitializeOnLoad (585ms)
+			ProcessInitializeOnLoadAttributes (784ms)
+			ProcessInitializeOnLoadMethodAttributes (412ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -171,80 +173,1606 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  3.514 seconds
-Refreshing native plugins compatible for Editor in 3.41 ms, found 4 plugins.
+- Loaded All Assemblies, in 38.943 seconds
+Refreshing native plugins compatible for Editor in 7.52 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=bcae4613e0ae0214f8847b026e929dc4): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+System.IO.IOException: Sharing violation on path D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Editor\ModulesListYG2.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at YG.EditorScr.DefineSymbols.ModulesDefineSymbols () [0x0021c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:273 
+  at YG.EditorScr.DefineSymbols.UpdateDefineSymbols () [0x0001c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:102 
+  at YG.EditorScr.DefineSymbols..cctor () [0x00031] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:39 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.392 seconds
-Domain Reload Profiling: 6898ms
-	BeginReloadAssembly (402ms)
+- Finished resetting the current domain, in  4.243 seconds
+Domain Reload Profiling: 43163ms
+	BeginReloadAssembly (1067ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (109ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (61ms)
-	RebuildCommonClasses (89ms)
-	RebuildNativeTypeToScriptingClass (36ms)
-	initialDomainReloadingComplete (88ms)
-	LoadAllAssembliesAndSetupDomain (2890ms)
-		LoadAssemblies (1108ms)
+		CreateAndSetChildDomain (118ms)
+	RebuildCommonClasses (184ms)
+	RebuildNativeTypeToScriptingClass (65ms)
+	initialDomainReloadingComplete (225ms)
+	LoadAllAssembliesAndSetupDomain (37376ms)
+		LoadAssemblies (35829ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1999ms)
-			TypeCache.Refresh (1627ms)
-				TypeCache.ScanAssembly (1550ms)
-			BuildScriptInfoCaches (309ms)
-			ResolveRequiredComponents (51ms)
-	FinalizeReload (3393ms)
+		AnalyzeDomain (2146ms)
+			TypeCache.Refresh (1755ms)
+				TypeCache.ScanAssembly (1692ms)
+			BuildScriptInfoCaches (341ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (4245ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2941ms)
+		SetupLoadedEditorAssemblies (3129ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (473ms)
+			ProcessInitializeOnLoadAttributes (1342ms)
+			ProcessInitializeOnLoadMethodAttributes (1279ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 10.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7042 unused Assets / (4.6 MB). Loaded Objects now: 7877.
+Memory consumption went from 156.7 MB to 152.2 MB.
+Total: 25.983800 ms (FindLiveObjects: 1.522700 ms CreateObjectMapping: 1.782700 ms MarkObjects: 14.627000 ms  DeleteObjects: 8.048800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 324790.538738 seconds.
+  path: Assets/PluginYourGames/Editor/BuildLogYG2.txt
+  artifactKey: Guid(7606dfb666f08f7419b9c44148272877) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Editor/BuildLogYG2.txt using Guid(7606dfb666f08f7419b9c44148272877) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d6f40d513734ea350563412f018cc10') in 0.1937879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Prefabs/Game/GameController.prefab
+  artifactKey: Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Game/GameController.prefab using Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dde49171cd42dd2221191c97830266d2') in 0.6407697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1120
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.344969 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3d2ec48b71a32c02062681e19c54b04') in 0.0203789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.754315 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '087314af473a800fe0c34374a5c97e55') in 0.0627144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.041853 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45164d5efb4059285107230c486d266a') in 0.0206797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.127281 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8e9c062a0c8edf32f0022361f1c00c8') in 0.0218754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.865516 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b360fdcf91c431d23a9dd5527c7e9039') in 0.0242803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.300825 seconds.
+  path: Assets/Prefabs/Game/GameController.prefab
+  artifactKey: Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Game/GameController.prefab using Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4333bb1c44d92e376590777be08353e6') in 0.0706558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1122
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.273731 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '38715ccc7f04e79001e3f36d068eb091') in 0.0206144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.335789 seconds.
+  path: Assets/Prefabs/Game/GameController.prefab
+  artifactKey: Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Game/GameController.prefab using Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '862a941fe29c32181ac9f89a0578a8f9') in 0.0639594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1122
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.238 seconds
+Refreshing native plugins compatible for Editor in 5.07 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=96740730677e1b94aa80291d91aee5f1): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+System.IO.IOException: Sharing violation on path D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Editor\ModulesListYG2.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at YG.EditorScr.DefineSymbols.ModulesDefineSymbols () [0x0021c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:273 
+  at YG.EditorScr.DefineSymbols.UpdateDefineSymbols () [0x0001c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:102 
+  at YG.EditorScr.DefineSymbols..cctor () [0x00031] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:39 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.514 seconds
+Domain Reload Profiling: 4749ms
+	BeginReloadAssembly (571ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (43ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (114ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (79ms)
+	LoadAllAssembliesAndSetupDomain (1426ms)
+		LoadAssemblies (1039ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (658ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (593ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (2515ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1978ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (433ms)
+			ProcessInitializeOnLoadAttributes (1225ms)
+			ProcessInitializeOnLoadMethodAttributes (284ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 9.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.4 MB). Loaded Objects now: 7885.
+Memory consumption went from 158.5 MB to 154.1 MB.
+Total: 27.994600 ms (FindLiveObjects: 1.953800 ms CreateObjectMapping: 1.958200 ms MarkObjects: 16.311600 ms  DeleteObjects: 7.768500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.615 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=127e1df4fe4f69d4686a5e25c561cd30): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+System.IO.IOException: Sharing violation on path D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Editor\ModulesListYG2.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding)
+  at System.IO.File.InternalReadAllLines (System.String path, System.Text.Encoding encoding) [0x00006] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.File.ReadAllLines (System.String path) [0x0002c] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at YG.EditorScr.DefineSymbols.ModulesDefineSymbols () [0x00035] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:198 
+  at YG.EditorScr.DefineSymbols.UpdateDefineSymbols () [0x0001c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:102 
+  at YG.EditorScr.DefineSymbols..cctor () [0x00031] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:39 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.054 seconds
+Domain Reload Profiling: 4665ms
+	BeginReloadAssembly (652ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (73ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (1712ms)
+		LoadAssemblies (1273ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (741ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (653ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (2055ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1616ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (424ms)
+			ProcessInitializeOnLoadAttributes (917ms)
+			ProcessInitializeOnLoadMethodAttributes (243ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 6.16 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7040 unused Assets / (3.3 MB). Loaded Objects now: 7888.
+Memory consumption went from 158.6 MB to 155.2 MB.
+Total: 22.859500 ms (FindLiveObjects: 1.581600 ms CreateObjectMapping: 1.727100 ms MarkObjects: 13.723500 ms  DeleteObjects: 5.763900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 584.348211 seconds.
+  path: Assets/Prefabs/Background.prefab
+  artifactKey: Guid(a41be8cffb02532428f308d734d4bc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Background.prefab using Guid(a41be8cffb02532428f308d734d4bc8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c9f230e059b8903f3b0133a4c747b98') in 1.0646548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.108852 seconds.
+  path: Assets/Prefabs/Warriors/Warrior.prefab
+  artifactKey: Guid(4b4bb2801ba9a584d8851302c9162528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Warriors/Warrior.prefab using Guid(4b4bb2801ba9a584d8851302c9162528) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f7be3fc7b0ba7e0bcb7eb2d75711cb8') in 0.1650158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 78
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.478 seconds
+Refreshing native plugins compatible for Editor in 5.58 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=945a98223b7f8344d9b73b42c485928d): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.426 seconds
+Domain Reload Profiling: 5903ms
+	BeginReloadAssembly (665ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (91ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (137ms)
+	RebuildCommonClasses (135ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (1542ms)
+		LoadAssemblies (1100ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (728ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (655ms)
+			ResolveRequiredComponents (35ms)
+	FinalizeReload (3428ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2809ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (483ms)
+			ProcessInitializeOnLoadAttributes (1832ms)
+			ProcessInitializeOnLoadMethodAttributes (455ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (3ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (95ms)
+Refreshing native plugins compatible for Editor in 7.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7040 unused Assets / (4.4 MB). Loaded Objects now: 7920.
+Memory consumption went from 160.1 MB to 155.7 MB.
+Total: 25.095500 ms (FindLiveObjects: 1.814400 ms CreateObjectMapping: 2.086800 ms MarkObjects: 14.482000 ms  DeleteObjects: 6.709100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 516.442060 seconds.
+  path: Assets/Materials/Sprites.mat
+  artifactKey: Guid(116e0d94db5cd764cbe353276b9e97ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sprites.mat using Guid(116e0d94db5cd764cbe353276b9e97ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b546c66fbe05288964a4143f696737e0') in 0.8959749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 718.257714 seconds.
+  path: Assets/Prefabs/Game/GameController.prefab
+  artifactKey: Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Game/GameController.prefab using Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc89d83b5b680c91a1bf5e04b3744840') in 0.2606287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1122
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbb8e636c461acabee33d3600d90fe6e') in 0.0222989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.550232 seconds.
+  path: Assets/Scripts/С.mat
+  artifactKey: Guid(95c7c48cb024c284abb45e7ffe99bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/С.mat using Guid(95c7c48cb024c284abb45e7ffe99bd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '076c2ecaf3e4871c8a96b24682c19150') in 0.0321569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.827526 seconds.
+  path: Assets/Scripts/С.mat
+  artifactKey: Guid(95c7c48cb024c284abb45e7ffe99bd4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/С.mat using Guid(95c7c48cb024c284abb45e7ffe99bd4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '416abc21e854b7e7e9199e9635fc783a') in 0.0377402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 12.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7028 unused Assets / (3.2 MB). Loaded Objects now: 8047.
+Memory consumption went from 161.5 MB to 158.2 MB.
+Total: 45.337800 ms (FindLiveObjects: 1.676300 ms CreateObjectMapping: 1.847400 ms MarkObjects: 33.309700 ms  DeleteObjects: 8.501600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.041125 seconds.
+  path: Assets/Scripts/CameraScaler.cs
+  artifactKey: Guid(dc43485335b7af441adda790f267d21c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CameraScaler.cs using Guid(dc43485335b7af441adda790f267d21c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27e9cff39192fa43642e376d8c069867') in 0.0376615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 51.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (2.8 MB). Loaded Objects now: 8047.
+Memory consumption went from 161.5 MB to 158.7 MB.
+Total: 83.325300 ms (FindLiveObjects: 13.559300 ms CreateObjectMapping: 2.516400 ms MarkObjects: 51.184000 ms  DeleteObjects: 16.062700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.374723 seconds.
+  path: Assets/Scripts/CameraScaler.cs
+  artifactKey: Guid(dc43485335b7af441adda790f267d21c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/CameraScaler.cs using Guid(dc43485335b7af441adda790f267d21c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9fbf16a871bd851e2100cc4ff352ca1') in 0.0567159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.266 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=a4a8d96f8912e4e42b64241b3b349da2): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.165 seconds
+Domain Reload Profiling: 4432ms
+	BeginReloadAssembly (661ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (114ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (38ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1385ms)
+		LoadAssemblies (1010ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (651ms)
+			TypeCache.Refresh (32ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (578ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (2167ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (390ms)
+			ProcessInitializeOnLoadAttributes (1033ms)
+			ProcessInitializeOnLoadMethodAttributes (241ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 8.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.4 MB). Loaded Objects now: 7977.
+Memory consumption went from 160.5 MB to 156.0 MB.
+Total: 25.677300 ms (FindLiveObjects: 2.242800 ms CreateObjectMapping: 2.106700 ms MarkObjects: 14.735600 ms  DeleteObjects: 6.587700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (3.8 MB). Loaded Objects now: 7977.
+Memory consumption went from 160.4 MB to 156.7 MB.
+Total: 54.690700 ms (FindLiveObjects: 5.937900 ms CreateObjectMapping: 2.351300 ms MarkObjects: 18.390700 ms  DeleteObjects: 28.008000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (3.6 MB). Loaded Objects now: 7977.
+Memory consumption went from 160.4 MB to 156.9 MB.
+Total: 30.914300 ms (FindLiveObjects: 2.145800 ms CreateObjectMapping: 2.536600 ms MarkObjects: 17.138200 ms  DeleteObjects: 9.091300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (3.4 MB). Loaded Objects now: 7977.
+Memory consumption went from 160.4 MB to 157.1 MB.
+Total: 46.577100 ms (FindLiveObjects: 2.205800 ms CreateObjectMapping: 4.953700 ms MarkObjects: 27.321200 ms  DeleteObjects: 12.094200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.160 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=8b3f40c0c297c5546906168a868f9a84): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.213 seconds
+Domain Reload Profiling: 4374ms
+	BeginReloadAssembly (559ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (117ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (1373ms)
+		LoadAssemblies (1006ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (626ms)
+			TypeCache.Refresh (31ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (553ms)
+			ResolveRequiredComponents (31ms)
+	FinalizeReload (2216ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1766ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (455ms)
+			ProcessInitializeOnLoadAttributes (1034ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 10.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.7 MB). Loaded Objects now: 7980.
+Memory consumption went from 160.4 MB to 155.7 MB.
+Total: 35.703800 ms (FindLiveObjects: 10.491000 ms CreateObjectMapping: 1.565200 ms MarkObjects: 17.829100 ms  DeleteObjects: 5.815500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.254 seconds
+Refreshing native plugins compatible for Editor in 6.63 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=da472b477fb3d4a43912cfeb4c4824d7): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.380 seconds
+Domain Reload Profiling: 4637ms
+	BeginReloadAssembly (536ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (38ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (102ms)
+	RebuildCommonClasses (109ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1496ms)
+		LoadAssemblies (1107ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (652ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (586ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (2383ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1904ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (413ms)
+			ProcessInitializeOnLoadAttributes (1156ms)
+			ProcessInitializeOnLoadMethodAttributes (303ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 7.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.7 MB). Loaded Objects now: 7983.
+Memory consumption went from 160.4 MB to 155.7 MB.
+Total: 28.932000 ms (FindLiveObjects: 1.699600 ms CreateObjectMapping: 2.788000 ms MarkObjects: 18.576700 ms  DeleteObjects: 5.865300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (4.6 MB). Loaded Objects now: 7983.
+Memory consumption went from 160.5 MB to 155.9 MB.
+Total: 27.252900 ms (FindLiveObjects: 1.752600 ms CreateObjectMapping: 2.151700 ms MarkObjects: 17.654700 ms  DeleteObjects: 5.691100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.434 seconds
+Refreshing native plugins compatible for Editor in 5.80 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=228989d75fce3db498f95f4d6ffa92a5): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.490 seconds
+Domain Reload Profiling: 6925ms
+	BeginReloadAssembly (1111ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (85ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (241ms)
+	RebuildCommonClasses (130ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (115ms)
+	LoadAllAssembliesAndSetupDomain (2030ms)
+		LoadAssemblies (1437ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1091ms)
+			TypeCache.Refresh (39ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (1000ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (3491ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2964ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (18ms)
-			BeforeProcessingInitializeOnLoad (684ms)
-			ProcessInitializeOnLoadAttributes (1801ms)
-			ProcessInitializeOnLoadMethodAttributes (418ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (600ms)
+			ProcessInitializeOnLoadAttributes (2099ms)
+			ProcessInitializeOnLoadMethodAttributes (233ms)
 			AfterProcessingInitializeOnLoad (11ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.80 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (33ms)
+Refreshing native plugins compatible for Editor in 4.46 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6900 unused Assets / (4.8 MB). Loaded Objects now: 7723.
-Memory consumption went from 152.7 MB to 147.9 MB.
-Total: 22.894500 ms (FindLiveObjects: 1.460500 ms CreateObjectMapping: 1.513100 ms MarkObjects: 15.390500 ms  DeleteObjects: 4.528200 ms)
-
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 25.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6889 unused Assets / (2.8 MB). Loaded Objects now: 7724.
-Memory consumption went from 150.3 MB to 147.5 MB.
-Total: 108.174600 ms (FindLiveObjects: 2.997400 ms CreateObjectMapping: 4.373800 ms MarkObjects: 65.332700 ms  DeleteObjects: 35.468000 ms)
+Unloading 7041 unused Assets / (4.6 MB). Loaded Objects now: 7986.
+Memory consumption went from 160.5 MB to 155.8 MB.
+Total: 19.747900 ms (FindLiveObjects: 1.694900 ms CreateObjectMapping: 1.655200 ms MarkObjects: 11.355100 ms  DeleteObjects: 5.039600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 3.52 ms, found 4 plugins.
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.109 seconds
+Refreshing native plugins compatible for Editor in 5.55 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=dd9106837aa89904186fecbe772d1139): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.550 seconds
+Domain Reload Profiling: 4657ms
+	BeginReloadAssembly (508ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (37ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (101ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1380ms)
+		LoadAssemblies (986ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (650ms)
+			TypeCache.Refresh (29ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (574ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1951ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (438ms)
+			ProcessInitializeOnLoadAttributes (1216ms)
+			ProcessInitializeOnLoadMethodAttributes (264ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 5.69 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6889 unused Assets / (3.9 MB). Loaded Objects now: 7724.
-Memory consumption went from 150.6 MB to 146.6 MB.
-Total: 23.049800 ms (FindLiveObjects: 4.380600 ms CreateObjectMapping: 1.621700 ms MarkObjects: 11.308000 ms  DeleteObjects: 5.737200 ms)
+Unloading 7041 unused Assets / (5.0 MB). Loaded Objects now: 7989.
+Memory consumption went from 160.5 MB to 155.5 MB.
+Total: 26.775800 ms (FindLiveObjects: 1.886300 ms CreateObjectMapping: 1.883700 ms MarkObjects: 16.140700 ms  DeleteObjects: 6.862200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.304 seconds
+Refreshing native plugins compatible for Editor in 5.34 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=b4f2273a8aaed0240bde38bd15896f12): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.494 seconds
+Domain Reload Profiling: 4796ms
+	BeginReloadAssembly (516ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (111ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1550ms)
+		LoadAssemblies (1096ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (706ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (632ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2495ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1992ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (451ms)
+			ProcessInitializeOnLoadAttributes (1224ms)
+			ProcessInitializeOnLoadMethodAttributes (285ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 11.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.4 MB). Loaded Objects now: 7992.
+Memory consumption went from 160.6 MB to 156.1 MB.
+Total: 27.422700 ms (FindLiveObjects: 2.033900 ms CreateObjectMapping: 2.052700 ms MarkObjects: 15.932200 ms  DeleteObjects: 7.401200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (4.6 MB). Loaded Objects now: 7992.
+Memory consumption went from 160.7 MB to 156.1 MB.
+Total: 24.516500 ms (FindLiveObjects: 1.657200 ms CreateObjectMapping: 1.718900 ms MarkObjects: 14.551600 ms  DeleteObjects: 6.586100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (5.4 MB). Loaded Objects now: 7992.
+Memory consumption went from 160.7 MB to 155.3 MB.
+Total: 22.812300 ms (FindLiveObjects: 1.492800 ms CreateObjectMapping: 1.518900 ms MarkObjects: 11.584900 ms  DeleteObjects: 8.213100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.87 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (5.4 MB). Loaded Objects now: 7992.
+Memory consumption went from 160.7 MB to 155.2 MB.
+Total: 26.567100 ms (FindLiveObjects: 1.410500 ms CreateObjectMapping: 1.613600 ms MarkObjects: 15.562800 ms  DeleteObjects: 7.977700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.192 seconds
+Refreshing native plugins compatible for Editor in 4.21 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=5b06007247a7c4344a0ea5e1bbf55f42): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+System.IO.IOException: Sharing violation on path D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Editor\ModulesListYG2.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at YG.EditorScr.DefineSymbols.ModulesDefineSymbols () [0x0021c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:273 
+  at YG.EditorScr.DefineSymbols.UpdateDefineSymbols () [0x0001c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:102 
+  at YG.EditorScr.DefineSymbols..cctor () [0x00031] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:39 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.062 seconds
+Domain Reload Profiling: 4255ms
+	BeginReloadAssembly (533ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (40ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (104ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (1434ms)
+		LoadAssemblies (1026ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (662ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (583ms)
+			ResolveRequiredComponents (32ms)
+	FinalizeReload (2063ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1595ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (402ms)
+			ProcessInitializeOnLoadAttributes (956ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 5.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.2 MB). Loaded Objects now: 7995.
+Memory consumption went from 160.6 MB to 156.4 MB.
+Total: 21.053800 ms (FindLiveObjects: 1.700500 ms CreateObjectMapping: 1.863200 ms MarkObjects: 12.488800 ms  DeleteObjects: 4.997500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.321 seconds
+Refreshing native plugins compatible for Editor in 8.17 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=e3d83acdbd4e97941ba3cf77345eda39): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.965 seconds
+Domain Reload Profiling: 5286ms
+	BeginReloadAssembly (531ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (35ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (113ms)
+	RebuildCommonClasses (98ms)
+	RebuildNativeTypeToScriptingClass (43ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1570ms)
+		LoadAssemblies (1018ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (802ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (725ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (2966ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2384ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (492ms)
+			ProcessInitializeOnLoadAttributes (1472ms)
+			ProcessInitializeOnLoadMethodAttributes (389ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 9.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.6 MB). Loaded Objects now: 7998.
+Memory consumption went from 160.7 MB to 156.0 MB.
+Total: 30.656000 ms (FindLiveObjects: 2.020300 ms CreateObjectMapping: 3.118000 ms MarkObjects: 17.468600 ms  DeleteObjects: 8.046100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 950.574345 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(509dc663fe7e8024f8ad33c93044ee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(509dc663fe7e8024f8ad33c93044ee67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba29a6957dfef3e18d8638d281e0cccf') in 0.0404025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.675 seconds
+Refreshing native plugins compatible for Editor in 5.98 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=b6145cfecfc02124bbbf3cdd6dff37e8): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.837 seconds
+Domain Reload Profiling: 7522ms
+	BeginReloadAssembly (598ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (127ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (96ms)
+	LoadAllAssembliesAndSetupDomain (1812ms)
+		LoadAssemblies (1244ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (847ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (758ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (4841ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (3794ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (25ms)
+			BeforeProcessingInitializeOnLoad (1252ms)
+			ProcessInitializeOnLoadAttributes (2018ms)
+			ProcessInitializeOnLoadMethodAttributes (463ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (63ms)
+Refreshing native plugins compatible for Editor in 16.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (5.7 MB). Loaded Objects now: 8001.
+Memory consumption went from 160.7 MB to 155.0 MB.
+Total: 51.847500 ms (FindLiveObjects: 2.635200 ms CreateObjectMapping: 2.303100 ms MarkObjects: 32.159900 ms  DeleteObjects: 14.519900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 6567.935894 seconds.
+  path: Assets/Sprites/Background.png
+  artifactKey: Guid(4964058741331484bb3d946193e3f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Background.png using Guid(4964058741331484bb3d946193e3f85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8858715a12960b83ef8fb2585e04251') in 0.9383512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000525 seconds.
+  path: Assets/Sprites/EnemySolder.png
+  artifactKey: Guid(d07b2ed45e9642b47a4dc1cf23859961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemySolder.png using Guid(d07b2ed45e9642b47a4dc1cf23859961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4ae06c94b00e606f69dd7a47ad187de') in 0.1147751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites/EnemyPistol.png
+  artifactKey: Guid(e1890c4cdb9f1da438a48ee82cf213bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/EnemyPistol.png using Guid(e1890c4cdb9f1da438a48ee82cf213bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '935469f5539cc75bf62932b477cc74bc') in 0.2315629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/UI.png
+  artifactKey: Guid(27a2177f45c1cd44885a2ae8b950a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/UI.png using Guid(27a2177f45c1cd44885a2ae8b950a23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cca6552280c319afbba033db9821dac9') in 0.2685118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprites/Boosts.png
+  artifactKey: Guid(9e8468cd02db8df448da899e1ed64b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Boosts.png using Guid(9e8468cd02db8df448da899e1ed64b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa970cc723c84de5db45aafca489e1b3') in 0.2249346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Sprites/Text.png
+  artifactKey: Guid(21360d2e30ce4f347b4748de3b9f969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Text.png using Guid(21360d2e30ce4f347b4748de3b9f969e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '182b2e6d4e37214568ab52aabe4b67aa') in 0.1350855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001151 seconds.
+  path: Assets/Sprites/Solder.png
+  artifactKey: Guid(3a6756cd3154d4f4db981e9d0da4103b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Solder.png using Guid(3a6756cd3154d4f4db981e9d0da4103b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1dae35ce86fa3c08cc73c9d4178385c5') in 0.1144864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.17 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (1.7 MB). Loaded Objects now: 8016.
+Memory consumption went from 154.0 MB to 152.4 MB.
+Total: 80.610800 ms (FindLiveObjects: 1.999200 ms CreateObjectMapping: 1.499800 ms MarkObjects: 76.387300 ms  DeleteObjects: 0.720400 ms)
+
+Prepare: number of updated asset objects reloaded= 179
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 19, subtarget 2, extendedPlatform 0 -> platform 20, subtarget 0, extendedPlatform 0
+  graphicsApiMask: 262148 -> 2048
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (1.7 MB). Loaded Objects now: 8016.
+Memory consumption went from 154.3 MB to 152.6 MB.
+Total: 17.424200 ms (FindLiveObjects: 0.823500 ms CreateObjectMapping: 0.782700 ms MarkObjects: 15.326000 ms  DeleteObjects: 0.489500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (1.7 MB). Loaded Objects now: 8016.
+Memory consumption went from 154.3 MB to 152.6 MB.
+Total: 42.948500 ms (FindLiveObjects: 1.051500 ms CreateObjectMapping: 0.744400 ms MarkObjects: 40.430400 ms  DeleteObjects: 0.718900 ms)
+
+Prepare: number of updated asset objects reloaded= 179
+AssetImportParameters requested are different than current active one (requested -> active):
+  buildTarget: platform 20, subtarget 0, extendedPlatform 0 -> platform 19, subtarget 2, extendedPlatform 0
+  graphicsApiMask: 2048 -> 262148
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 16 unused Assets / (1.7 MB). Loaded Objects now: 8016.
+Memory consumption went from 154.2 MB to 152.5 MB.
+Total: 24.906100 ms (FindLiveObjects: 1.160100 ms CreateObjectMapping: 0.861200 ms MarkObjects: 22.155400 ms  DeleteObjects: 0.725700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.131 seconds
+Refreshing native plugins compatible for Editor in 9.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=33663951a4ad0f64b9c51830b4e608fe): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.315 seconds
+Domain Reload Profiling: 5446ms
+	BeginReloadAssembly (844ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (61ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (232ms)
+	RebuildCommonClasses (125ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (2000ms)
+		LoadAssemblies (1600ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (780ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (707ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (2316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1776ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (448ms)
+			ProcessInitializeOnLoadAttributes (1045ms)
+			ProcessInitializeOnLoadMethodAttributes (252ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 7.45 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (4.2 MB). Loaded Objects now: 8018.
+Memory consumption went from 158.8 MB to 154.6 MB.
+Total: 27.848100 ms (FindLiveObjects: 1.967900 ms CreateObjectMapping: 1.945800 ms MarkObjects: 16.088800 ms  DeleteObjects: 7.841600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4442.326555 seconds.
+  path: Assets/Prefabs/Game/GameController.prefab
+  artifactKey: Guid(876185c67d2bed2428d82545f9af026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game/GameController.prefab using Guid(876185c67d2bed2428d82545f9af026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd64b3795000f4b65c18a8527f6ca0610') in 4.0523559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1982
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.726 seconds
+Refreshing native plugins compatible for Editor in 13.00 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=c1b4b275348e23446892feb59dc9ff74): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.807 seconds
+Domain Reload Profiling: 7539ms
+	BeginReloadAssembly (989ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (121ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (270ms)
+	RebuildCommonClasses (137ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (123ms)
+	LoadAllAssembliesAndSetupDomain (2429ms)
+		LoadAssemblies (1977ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (859ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (780ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (3808ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2989ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (724ms)
+			ProcessInitializeOnLoadAttributes (1829ms)
+			ProcessInitializeOnLoadMethodAttributes (388ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (65ms)
+Refreshing native plugins compatible for Editor in 13.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7043 unused Assets / (4.9 MB). Loaded Objects now: 8043.
+Memory consumption went from 159.3 MB to 154.4 MB.
+Total: 34.687700 ms (FindLiveObjects: 1.706300 ms CreateObjectMapping: 2.390800 ms MarkObjects: 19.332300 ms  DeleteObjects: 11.254300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.024 seconds
+Refreshing native plugins compatible for Editor in 7.46 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=5fbd0fde25c14914fa875c0b73b616b3): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+System.IO.IOException: Sharing violation on path D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Editor\ModulesListYG2.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at YG.EditorScr.DefineSymbols.ModulesDefineSymbols () [0x0021c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:273 
+  at YG.EditorScr.DefineSymbols.UpdateDefineSymbols () [0x0001c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:102 
+  at YG.EditorScr.DefineSymbols..cctor () [0x00031] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:39 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.125 seconds
+Domain Reload Profiling: 6146ms
+	BeginReloadAssembly (849ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (60ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (179ms)
+	RebuildCommonClasses (152ms)
+	RebuildNativeTypeToScriptingClass (55ms)
+	initialDomainReloadingComplete (101ms)
+	LoadAllAssembliesAndSetupDomain (1860ms)
+		LoadAssemblies (1410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (842ms)
+			TypeCache.Refresh (21ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (767ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (3129ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (639ms)
+			ProcessInitializeOnLoadAttributes (1499ms)
+			ProcessInitializeOnLoadMethodAttributes (342ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (59ms)
+Refreshing native plugins compatible for Editor in 9.32 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7041 unused Assets / (5.5 MB). Loaded Objects now: 8046.
+Memory consumption went from 159.1 MB to 153.7 MB.
+Total: 30.384400 ms (FindLiveObjects: 2.093400 ms CreateObjectMapping: 2.826100 ms MarkObjects: 16.152300 ms  DeleteObjects: 9.309100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 321.288549 seconds.
+  path: Assets/Scenes/Normal.unity
+  artifactKey: Guid(9b13f6fbd77ce874ba9530446741ef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Normal.unity using Guid(9b13f6fbd77ce874ba9530446741ef73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c07a9d41d93718f4aaf34767f9cefd') in 0.0084959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.977739 seconds.
+  path: Assets/Scenes/Hard.unity
+  artifactKey: Guid(0ca7334184c2aa847a544410580e2459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Hard.unity using Guid(0ca7334184c2aa847a544410580e2459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '755c5c38945a94e056a81141d1c22eba') in 0.0016806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.127811 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c0c1008361f2cfd77413e1a74068dfcd') in 0.0013723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+

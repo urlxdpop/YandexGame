@@ -76,6 +76,8 @@ namespace Units.Warrior
 
         private void Update()
         {
+            ClampToCamera();
+
             if (_state == WarriorState.Dead) return;
             if (_targets.Count > 0)
             {
@@ -140,6 +142,23 @@ namespace Units.Warrior
                 _targets.Remove(enemyController);
                 enemyController.OnDeath -= RemoveTarget;
             }
+        }
+
+        private void ClampToCamera()
+        {
+            Camera cam = Camera.main;
+
+            float height = cam.orthographicSize;
+            float width = height * cam.aspect;
+
+            Vector3 pos = transform.position;
+
+            Vector3 camPos = cam.transform.position;
+
+            pos.x = Mathf.Clamp(pos.x, camPos.x - width, camPos.x + width);
+            pos.y = Mathf.Clamp(pos.y, camPos.y - height, camPos.y + height);
+
+            transform.position = pos;
         }
 
         private void RemoveTarget(object sender, EventArgs e)

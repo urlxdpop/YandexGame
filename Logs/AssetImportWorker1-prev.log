@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-18T04:25:22.3481213Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-03-18T14:12:46.5078562Z"
 Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 32472 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-03-18T04:25:22Z
+Date: 2026-03-18T14:12:46Z
 
 COMMAND LINE ARGUMENTS:
 D:\Nikita\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
@@ -19,9 +19,7 @@ D:/Nikita/Unity/myProject/YandexGame
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54183
--licensingIpc
-LicenseClient-User
+49482
 -job-worker-count
 5
 -background-job-worker-count
@@ -67,12 +65,12 @@ D:/Nikita/Unity/myProject/YandexGame
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [20660]  Target information:
+Player connection [5140]  Target information:
 
-Player connection [20660]  * "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 2706960024 [EditorId] 2706960024 [Version] 1048832 [Id] WindowsEditor(7,NIKITA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [5140]  * "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 388985504 [EditorId] 388985504 [Version] 1048832 [Id] WindowsEditor(7,NIKITA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20660] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20660] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [5140] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [5140] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -84,7 +82,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 45.69 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 28.53 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -100,65 +98,65 @@ Initialize mono
 Mono path[0] = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56016
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Nikita/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.021718 seconds.
+Registered in 0.007525 seconds.
+- Loaded All Assemblies, in  3.472 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
 [Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-03-18T04:25:28.4310131Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-03-18T14:12:55.6907451Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              578a365790774b1e8c7e449d76a604a2
-  Correlation Id:          70d374f6af2a5a9f34fa963bfdfe20a9
-  External correlation Id: 8796833026027311121
+  Session Id:              8310674fb5a54a77ad02b9001b4b4120
+  Correlation Id:          6d12f167fa7daeb05bf51606e3da72d9
+  External correlation Id: 1321847547520693867
   Machine Id:              PjmiVTPYQeyv+WZ33Tq9j//byBU=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.55s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-03-18T04:25:28.9875901Z"
-[Licensing::Module] Licensing Background thread has ended after 6.64s
-- Loaded All Assemblies, in  3.812 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.74s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-03-18T14:12:56.4332268Z"
+[Licensing::Module] Licensing Background thread has ended after 9.93s
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.531 seconds
-Domain Reload Profiling: 5335ms
-	BeginReloadAssembly (1277ms)
+- Finished resetting the current domain, in  2.821 seconds
+Domain Reload Profiling: 6286ms
+	BeginReloadAssembly (1561ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (7ms)
-	RebuildCommonClasses (598ms)
-	RebuildNativeTypeToScriptingClass (166ms)
-	initialDomainReloadingComplete (556ms)
-	LoadAllAssembliesAndSetupDomain (1206ms)
-		LoadAssemblies (1246ms)
+		CreateAndSetChildDomain (10ms)
+	RebuildCommonClasses (267ms)
+	RebuildNativeTypeToScriptingClass (64ms)
+	initialDomainReloadingComplete (286ms)
+	LoadAllAssembliesAndSetupDomain (1285ms)
+		LoadAssemblies (1526ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1168ms)
-			TypeCache.Refresh (1162ms)
-				TypeCache.ScanAssembly (1102ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1532ms)
+		AnalyzeDomain (1274ms)
+			TypeCache.Refresh (1266ms)
+				TypeCache.ScanAssembly (1175ms)
+			BuildScriptInfoCaches (2ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (2823ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1390ms)
+		SetupLoadedEditorAssemblies (2450ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (221ms)
-			SetLoadedEditorAssemblies (33ms)
-			BeforeProcessingInitializeOnLoad (383ms)
-			ProcessInitializeOnLoadAttributes (491ms)
-			ProcessInitializeOnLoadMethodAttributes (263ms)
+			InitializePlatformSupportModulesInManaged (488ms)
+			SetLoadedEditorAssemblies (21ms)
+			BeforeProcessingInitializeOnLoad (480ms)
+			ProcessInitializeOnLoadAttributes (1041ms)
+			ProcessInitializeOnLoadMethodAttributes (419ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -173,100 +171,1948 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  3.330 seconds
-Refreshing native plugins compatible for Editor in 5.60 ms, found 4 plugins.
+- Loaded All Assemblies, in  4.574 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=3993a7ac89a1eac45aae25db8a1b433b): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  3.394 seconds
-Domain Reload Profiling: 6713ms
-	BeginReloadAssembly (561ms)
+- Finished resetting the current domain, in  4.045 seconds
+Domain Reload Profiling: 8600ms
+	BeginReloadAssembly (966ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
+		DisableScriptedObjects (41ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (85ms)
-	RebuildCommonClasses (122ms)
-	RebuildNativeTypeToScriptingClass (42ms)
-	initialDomainReloadingComplete (116ms)
-	LoadAllAssembliesAndSetupDomain (2477ms)
-		LoadAssemblies (1219ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (165ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (208ms)
+	LoadAllAssembliesAndSetupDomain (3152ms)
+		LoadAssemblies (2192ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1570ms)
-			TypeCache.Refresh (1021ms)
-				TypeCache.ScanAssembly (956ms)
-			BuildScriptInfoCaches (363ms)
-			ResolveRequiredComponents (159ms)
-	FinalizeReload (3395ms)
+		AnalyzeDomain (1541ms)
+			TypeCache.Refresh (1002ms)
+				TypeCache.ScanAssembly (917ms)
+			BuildScriptInfoCaches (442ms)
+			ResolveRequiredComponents (74ms)
+	FinalizeReload (4048ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (2815ms)
+		SetupLoadedEditorAssemblies (3225ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
-			SetLoadedEditorAssemblies (19ms)
-			BeforeProcessingInitializeOnLoad (640ms)
-			ProcessInitializeOnLoadAttributes (1477ms)
-			ProcessInitializeOnLoadMethodAttributes (646ms)
-			AfterProcessingInitializeOnLoad (17ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (16ms)
+			BeforeProcessingInitializeOnLoad (654ms)
+			ProcessInitializeOnLoadAttributes (2000ms)
+			ProcessInitializeOnLoadMethodAttributes (525ms)
+			AfterProcessingInitializeOnLoad (12ms)
 			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (19ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 6.20 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (27ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.17 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6899 unused Assets / (5.0 MB). Loaded Objects now: 7722.
-Memory consumption went from 150.7 MB to 145.7 MB.
-Total: 28.011100 ms (FindLiveObjects: 1.416600 ms CreateObjectMapping: 1.620400 ms MarkObjects: 15.957000 ms  DeleteObjects: 9.014000 ms)
+Unloading 7026 unused Assets / (5.8 MB). Loaded Objects now: 7862.
+Memory consumption went from 156.5 MB to 150.7 MB.
+Total: 55.836600 ms (FindLiveObjects: 1.344500 ms CreateObjectMapping: 2.376400 ms MarkObjects: 29.464100 ms  DeleteObjects: 22.647700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 237158.739163 seconds.
-  path: Assets/Scripts/Game/SpawnSystem/TimerToBoost.cs
-  artifactKey: Guid(d46027e90f4596e4aab2573606affccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Game/SpawnSystem/TimerToBoost.cs using Guid(d46027e90f4596e4aab2573606affccd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7045da642be80674ff88d184585c4e24') in 0.3257014 seconds
+  Time since last request: 272408.386863 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/CanvasScaleForMobile.cs
+  artifactKey: Guid(1a65bc4458b62b14b87ebcf8f8c1080f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Scripts/CanvasScaleForMobile.cs using Guid(1a65bc4458b62b14b87ebcf8f8c1080f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3410884375ee4308c7a6b3a1ef14000') in 0.3806726 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Prefabs/Game/SpawnSystem/BoostButtons.prefab
-  artifactKey: Guid(b6c55f7fbd95bc241bcd1420aafd8600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Game/SpawnSystem/BoostButtons.prefab using Guid(b6c55f7fbd95bc241bcd1420aafd8600) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74179eff68e64e6575c60319f96c5250') in 0.2211264 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.130146 seconds.
-  path: Assets/Scripts/Bot/BotSpawnWarrior.cs
-  artifactKey: Guid(1387501cad50c4646917b42cd6cf26a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scripts/Bot/BotSpawnWarrior.cs using Guid(1387501cad50c4646917b42cd6cf26a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbd5e94450f30f848a143008e3af62fc') in 0.0304745 seconds
+  Time since last request: 0.000050 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/PixelRatioMobile.cs
+  artifactKey: Guid(691640dfa19eb474584f9fafac46a85d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/PixelRatioMobile.cs using Guid(691640dfa19eb474584f9fafac46a85d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c48caafe02e2595a99dd494cba38f14d') in 0.0492201 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Prefabs/Warriors/Player/PlayerTank.prefab
-  artifactKey: Guid(830e735c3b32b7b43a372271479a0a7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Warriors/Player/PlayerTank.prefab using Guid(830e735c3b32b7b43a372271479a0a7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e08c7ad27ec95a0fd2231af612f138c8') in 0.2168341 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+  Time since last request: 0.000063 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons
+  artifactKey: Guid(4f12e5a497dc88e48bcbd5dab4a21288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons using Guid(4f12e5a497dc88e48bcbd5dab4a21288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f40f4a54b5ec391754be587307cf84f3') in 0.04394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Translates
+  artifactKey: Guid(0be26dfd299d6c640977eac4d3a7c53f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Translates using Guid(0be26dfd299d6c640977eac4d3a7c53f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '217a26017fe3a5fa31edf82940f688e9') in 0.0289027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000074 seconds.
-  path: Assets/Prefabs/Warriors/Player/PlayerArtillery.prefab
-  artifactKey: Guid(375312ef1879ed945917d0de102b0e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Prefabs/Warriors/Player/PlayerArtillery.prefab using Guid(375312ef1879ed945917d0de102b0e90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8be883f25fb9ffc2a7056b6099637f4') in 0.1285632 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 108
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(509dc663fe7e8024f8ad33c93044ee67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainMenu.unity using Guid(509dc663fe7e8024f8ad33c93044ee67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40cda44257c47e54b5efe49c6e88ef66') in 0.0407128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/YG2.cs
+  artifactKey: Guid(e131260c28a37ee4db27545c5ac78fb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Basic/YG2.cs using Guid(e131260c28a37ee4db27545c5ac78fb8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd290f114f4aadf9a547a0d3b8fd6c82a') in 0.0447569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG
+  artifactKey: Guid(fa9b557e4cd72164794ecf4feaf804aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/InfoYG using Guid(fa9b557e4cd72164794ecf4feaf804aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0bda28ce0e096da8b45f26092d9d541') in 0.03035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PluginYourGames/Manual EN PluginYG2.pdf
+  artifactKey: Guid(9b7b9ba6e1b70674a8eaa750233d83f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Manual EN PluginYG2.pdf using Guid(9b7b9ba6e1b70674a8eaa750233d83f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ca9f143f1a26f6b3db49f51a4113130') in 0.0463226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/PluginYourGames/Scripts/InfoYG/Editor/ExampleScenes.cs
+  artifactKey: Guid(211a3010d04ef64448a25f7576d95860) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/InfoYG/Editor/ExampleScenes.cs using Guid(211a3010d04ef64448a25f7576d95860) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0dd51726b9b6c56d19e289ce7835fe40') in 0.0346527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/ServerJson.cs
+  artifactKey: Guid(92f3b5a16d7dbf44380543f61798efc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Server/ServerJson.cs using Guid(92f3b5a16d7dbf44380543f61798efc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2e3913ae3d9f06190d3fcbf6884d93d8') in 0.0311325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/PluginYourGames/Example
+  artifactKey: Guid(ac3d445d47743844681025e48e5096b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example using Guid(ac3d445d47743844681025e48e5096b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e45f866cf20cab8c7f33ef2775d22455') in 0.0321468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/PlatformToggles.cs
+  artifactKey: Guid(b1066bf4e829e1748a687085af7b0109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Platform/PlatformToggles.cs using Guid(b1066bf4e829e1748a687085af7b0109) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae3b081315c955afb0450b5135f85c97') in 0.0723728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PluginYourGames/Example/Scripts/Scenes/DemoScenePartial.cs
+  artifactKey: Guid(7617ecd946ab4ed489c1cc3059b6a5a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Scripts/Scenes/DemoScenePartial.cs using Guid(7617ecd946ab4ed489c1cc3059b6a5a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '814b4b6b4d65bf0910c737e818e0cd1a') in 0.0428759 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/PlatformEventsYG2.cs
+  artifactKey: Guid(9ef5f9984b9ce8a418aca2172f2fd7d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Other/PlatformEventsYG2.cs using Guid(9ef5f9984b9ce8a418aca2172f2fd7d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b250425fa7888a08be037bb5a165988e') in 0.0384859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/PlatformOptions.cs
+  artifactKey: Guid(274c4d67ec011314d9c1bf4a322e2dbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Platform/PlatformOptions.cs using Guid(274c4d67ec011314d9c1bf4a322e2dbf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35c42689140f9cd38d9bf8d43c64f97a') in 0.0344354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/PluginYourGames/Version.txt
+  artifactKey: Guid(c843f4e7c77ec6848bc78b65164de94f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Version.txt using Guid(c843f4e7c77ec6848bc78b65164de94f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '722a40b8fb25955e5b43536acd4dd3a4') in 0.0434511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PluginYourGames/Example/Content/Font/Roboto-Regular.ttf
+  artifactKey: Guid(4b10251d8d1a40c4d97edcf51fc6b4ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Content/Font/Roboto-Regular.ttf using Guid(4b10251d8d1a40c4d97edcf51fc6b4ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2e2733e1e6169c66796d967252e6960') in 0.1590633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/YGEditorStyles.cs
+  artifactKey: Guid(47346d112b91a8f43bd3fc707165d73c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/YGEditorStyles.cs using Guid(47346d112b91a8f43bd3fc707165d73c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ae1b02fc2aef892bc7ecf28ec1fdd5b') in 0.0838539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs
+  artifactKey: Guid(a65f79c6642d5424a83a255a036bb2f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ModifyBuild.cs using Guid(a65f79c6642d5424a83a255a036bb2f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '65481b6934058c812cc898f373aff677') in 0.0290962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Sounds/MashineGunner.mp3
+  artifactKey: Guid(44ff0d23055220649bfc2c0dc693ab94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sounds/MashineGunner.mp3 using Guid(44ff0d23055220649bfc2c0dc693ab94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8daf43df668714f1239971b574602dc9') in 0.174937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/WebGLTemplates/YandexGames
+  artifactKey: Guid(8497df97f3566b040ab449ac0006a6a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/WebGLTemplates/YandexGames using Guid(8497df97f3566b040ab449ac0006a6a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '59fc2d69ba9200f2b26c8855a6c9f96d') in 0.0313026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Attributes/NestedYGAttribute.cs
+  artifactKey: Guid(569ac51cc0abd0f44b7995c0803c15e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Attributes/NestedYGAttribute.cs using Guid(569ac51cc0abd0f44b7995c0803c15e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b97e80838b21cda423a502d502a1291') in 0.0344753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PluginYourGames/Scripts/Utils/Plugins/LocalStorage.jslib
+  artifactKey: Guid(3e0ac78106fb48f4da7dc2ddf00eb9d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Utils/Plugins/LocalStorage.jslib using Guid(3e0ac78106fb48f4da7dc2ddf00eb9d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea071a1b1251bf79d29abd902a4a8526') in 0.0571265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Attributes
+  artifactKey: Guid(921ae7483ee4b6c4b99120c5e731ae14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Attributes using Guid(921ae7483ee4b6c4b99120c5e731ae14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1261a95dca53e606507c77479d9407b') in 0.0261715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PluginYourGames/Editor/ServerInfoYG2.json
+  artifactKey: Guid(9b2c1a01d9fc676488b3b0bb13b69539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Editor/ServerInfoYG2.json using Guid(9b2c1a01d9fc676488b3b0bb13b69539) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c96657dc31a1a29e0cd1d848c229f78') in 0.0488814 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/WebGLTemplates
+  artifactKey: Guid(0bb6381a575e9cc4d9b276227fb2f3c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/WebGLTemplates using Guid(0bb6381a575e9cc4d9b276227fb2f3c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6915169abc6599d61cc9fbf24fe2ad67') in 0.0375022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/Editor/NotificationUpdateWindow.cs
+  artifactKey: Guid(3719b0ca0b584674ba9593403438ed92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Server/Editor/NotificationUpdateWindow.cs using Guid(3719b0ca0b584674ba9593403438ed92) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9d3e5fd1424a51845ebf065e2e011f2') in 0.0424797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Settings.png
+  artifactKey: Guid(9925063d15d384e4ca964d01350a243b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/Settings.png using Guid(9925063d15d384e4ca964d01350a243b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49960ebcf7042feb7ab9f51e20c472cb') in 0.3309685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset
+  artifactKey: Guid(fabe82a4ab034324eb452cc7109f6d19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/YandexGames.asset using Guid(fabe82a4ab034324eb452cc7109f6d19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9d799b577ac8e2890a530a633e92df7') in 0.1142035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/SyncInitSDK.cs
+  artifactKey: Guid(aba1b8d40fa17024cbd11253dae65fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/SyncInitSDK.cs using Guid(aba1b8d40fa17024cbd11253dae65fc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa52d636910310a3d31d39fafebaf21a') in 0.0440262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/PluginPrefs.cs
+  artifactKey: Guid(f13b26c817c8c0543b123d4484b370fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/PluginPrefs.cs using Guid(f13b26c817c8c0543b123d4484b370fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb4e128cb22f48411971e57e94ce5251') in 0.0368793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/TriggerYG.png
+  artifactKey: Guid(5cdf66b22a9c3b24998f68ea17aa3e84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/TriggerYG.png using Guid(5cdf66b22a9c3b24998f68ea17aa3e84) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9e308738a3df0298135698524e5c5f6') in 0.0869022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PluginYourGames/Example/Sprites
+  artifactKey: Guid(0943cd91d17a3464390e2583c4f1a072) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Sprites using Guid(0943cd91d17a3464390e2583c4f1a072) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '154c3cf9b3b349d2cd1bb56943d8e6a7') in 0.0282853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css
+  artifactKey: Guid(9e924af503edf11458a89cdc15f16aca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/GradientBackground/GradientBackground.css using Guid(9e924af503edf11458a89cdc15f16aca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2633ad7b785972620d1245713a8c6f8') in 0.0311214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/WindowGame.cs
+  artifactKey: Guid(368dcc54c1901234c83ab4f68d741705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Basic/WindowGame.cs using Guid(368dcc54c1901234c83ab4f68d741705) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bbefaedc4dadd1dac16ae1d2e943af99') in 0.0358871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/ImageLoad.png
+  artifactKey: Guid(3e718788f63bb7746b9a7a2be1e8b093) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/ImageLoad.png using Guid(3e718788f63bb7746b9a7a2be1e8b093) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99dd2e351c5856427a50aea486a71e98') in 0.0963717 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ProcessBuild.cs
+  artifactKey: Guid(c4ce61f13f3e1474682e29f60bb05390) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify/ProcessBuild.cs using Guid(c4ce61f13f3e1474682e29f60bb05390) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bfda1e494a4cfdc1cc09e343178da73') in 0.032541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/OptionalPlatform.cs
+  artifactKey: Guid(9ae5b3d9e574b4841a43e6207b38ae6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Basic/OptionalPlatform.cs using Guid(9ae5b3d9e574b4841a43e6207b38ae6d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11d8a65fc2dbfbc9dd1e1b8f8f7396cd') in 0.0312922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/Editor
+  artifactKey: Guid(ea3082208dec0bf4fb5e448ec83c1607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Platform/Editor using Guid(ea3082208dec0bf4fb5e448ec83c1607) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a933c10776509348cdc6a0daac3781ca') in 0.0467718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/PluginYourGames/Scripts/Other/ImageLoadYG.cs
+  artifactKey: Guid(e48d8d781d3e59d409adef5e128d2b04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Other/ImageLoadYG.cs using Guid(e48d8d781d3e59d409adef5e128d2b04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a6abd06af2caa8af988803a8a98fd8a') in 0.0351691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/PluginYourGames/Example/Scenes
+  artifactKey: Guid(1d8d24c0d3d8f4448bbadeba800ab3c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Scenes using Guid(1d8d24c0d3d8f4448bbadeba800ab3c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f81ba071893ca26dcc30653b6499c0d1') in 0.0331209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/DocumentationEditor.cs
+  artifactKey: Guid(2cb8cfe741ef91e448951fced5e32681) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/DocumentationEditor.cs using Guid(2cb8cfe741ef91e448951fced5e32681) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '354894adbf8ad23e5211e000502e15f8') in 0.0287779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs
+  artifactKey: Guid(6c5f334dd83ae0b42b3a3a1ad3b655d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs using Guid(6c5f334dd83ae0b42b3a3a1ad3b655d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aaeac590ef11350347002dac855fad15') in 0.031373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs
+  artifactKey: Guid(81e00845a563cb142aba772859940c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs using Guid(81e00845a563cb142aba772859940c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '024bb150bb5df6e2882c96706660ec94') in 0.033586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Translates/Langs.cs
+  artifactKey: Guid(6132d879f2397684b959bc3c5bb8c3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Translates/Langs.cs using Guid(6132d879f2397684b959bc3c5bb8c3f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9b85ae01f85772a0fd4e64787b3ffe2') in 0.0381454 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify
+  artifactKey: Guid(5329dbc1c799fa041ba0b9b98c096fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/BuildModify using Guid(5329dbc1c799fa041ba0b9b98c096fe9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd445618a9b07ee9815732c229a400b63') in 0.0405984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture
+  artifactKey: Guid(4d24706698c829a46a56d8fa7d7b21c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Content/Materials/DebugViewingRender.renderTexture using Guid(4d24706698c829a46a56d8fa7d7b21c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11d2c0e1a4e809841b2c17fcd660521b') in 0.0915876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/GamePause.cs
+  artifactKey: Guid(4cc4ae770d1206248a358b8d38ef112a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Basic/GamePause.cs using Guid(4cc4ae770d1206248a358b8d38ef112a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45037589114971a3da58137636bd6367') in 0.0495474 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs
+  artifactKey: Guid(35df5d2532a7ef2489a47cf39a04faa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Utils/LocalStorage_yg.cs using Guid(35df5d2532a7ef2489a47cf39a04faa6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5f714670cd7f09a662c976d7b683fb0') in 0.0411954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor
+  artifactKey: Guid(5fbcc4f9f77425b409526c3fce11a264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor using Guid(5fbcc4f9f77425b409526c3fce11a264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83c6717dfa28b357990394f9f879f89c') in 0.048314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic/GameplayAPI.cs
+  artifactKey: Guid(643f0f381e971aa4688989303acf5a09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Basic/GameplayAPI.cs using Guid(643f0f381e971aa4688989303acf5a09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad56bee4cdbb3ab7e3ea1377199d5dfd') in 0.048751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/IconPluginYG2.png
+  artifactKey: Guid(10f7f7cc7c7dde5479b2ae90ac584f83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/EditorScr/Editor/Icons/IconPluginYG2.png using Guid(10f7f7cc7c7dde5479b2ae90ac584f83) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fca5a1dfc42d96f72eda19734ee633a') in 0.0538923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatioOnMobile.css
+  artifactKey: Guid(f8b6d50b74a105e459ce613b7f143ab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/AspectRatio/AspectRatioOnMobile.css using Guid(f8b6d50b74a105e459ce613b7f143ab7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1056593fc48edd913bc17b3119c3d382') in 0.0435984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.html
+  artifactKey: Guid(16c26d9eef5c2b648abd344b443a855d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Platforms/YandexGames/Scripts/Editor/TestLabel/TestLabel.html using Guid(16c26d9eef5c2b648abd344b443a855d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8770973fd48f1bcd85122d4abc143e22') in 0.0326873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PluginYourGames/Scripts/Basic
+  artifactKey: Guid(75d5bfd16ffc4c249a2b0ef72d149e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Basic using Guid(75d5bfd16ffc4c249a2b0ef72d149e66) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb8a9025be9df5fdedab1f73954e7028') in 0.0276507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PluginYourGames/Example/Content/Materials
+  artifactKey: Guid(057f87d4f9a04644cafb672180277ab0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Content/Materials using Guid(057f87d4f9a04644cafb672180277ab0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '27c93270d52df570d3b1908c0247ccd5') in 0.0448785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/PluginYourGames/Scripts/Platform/PlatformSettingsAttributes.cs
+  artifactKey: Guid(7f2699cd57d58e34cbbad7db24c5314d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Platform/PlatformSettingsAttributes.cs using Guid(7f2699cd57d58e34cbbad7db24c5314d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3ffe3c00a4eb2a6c85749dda92c348f') in 0.045019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/PluginYourGames/Scripts/Server/ModuleJson.cs
+  artifactKey: Guid(70331bfb5b5be9a42a173b1a4323166f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Scripts/Server/ModuleJson.cs using Guid(70331bfb5b5be9a42a173b1a4323166f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82989d7e95b009b006b964475fd56023') in 0.0409202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.983535 seconds.
+  path: Assets/PluginYourGames/Example/Resources/DemoSceneNames.txt
+  artifactKey: Guid(b552c97859a81c941a52ee2d0e0df362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Resources/DemoSceneNames.txt using Guid(b552c97859a81c941a52ee2d0e0df362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '291b0dcdcafee48de87498528c1d93ef') in 0.0320537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  6.962 seconds
+Refreshing native plugins compatible for Editor in 6.33 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=fa0bde844b9f8ce4892448498980159e): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.819 seconds
+Domain Reload Profiling: 10780ms
+	BeginReloadAssembly (1232ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (90ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (325ms)
+	RebuildCommonClasses (200ms)
+	RebuildNativeTypeToScriptingClass (76ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (5266ms)
+		LoadAssemblies (3600ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2210ms)
+			TypeCache.Refresh (1460ms)
+				TypeCache.ScanAssembly (1384ms)
+			BuildScriptInfoCaches (638ms)
+			ResolveRequiredComponents (78ms)
+	FinalizeReload (3822ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2895ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (734ms)
+			ProcessInitializeOnLoadAttributes (1848ms)
+			ProcessInitializeOnLoadMethodAttributes (278ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (46ms)
+Refreshing native plugins compatible for Editor in 5.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (3.6 MB). Loaded Objects now: 7883.
+Memory consumption went from 158.2 MB to 154.6 MB.
+Total: 27.798500 ms (FindLiveObjects: 1.316600 ms CreateObjectMapping: 2.958500 ms MarkObjects: 16.636300 ms  DeleteObjects: 6.882600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.186 seconds
+Refreshing native plugins compatible for Editor in 6.01 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=26774d4ffecc17b469214d5888b4bdf3): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.708 seconds
+Domain Reload Profiling: 6909ms
+	BeginReloadAssembly (794ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (65ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (150ms)
+	RebuildCommonClasses (147ms)
+	RebuildNativeTypeToScriptingClass (58ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (2098ms)
+		LoadAssemblies (1601ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (871ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (776ms)
+			ResolveRequiredComponents (58ms)
+	FinalizeReload (3711ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2976ms)
+			LogAssemblyErrors (2ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (24ms)
+			BeforeProcessingInitializeOnLoad (702ms)
+			ProcessInitializeOnLoadAttributes (1805ms)
+			ProcessInitializeOnLoadMethodAttributes (392ms)
+			AfterProcessingInitializeOnLoad (36ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (76ms)
+Refreshing native plugins compatible for Editor in 13.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (2.9 MB). Loaded Objects now: 7886.
+Memory consumption went from 158.3 MB to 155.4 MB.
+Total: 31.728100 ms (FindLiveObjects: 2.323200 ms CreateObjectMapping: 3.025500 ms MarkObjects: 19.777500 ms  DeleteObjects: 6.598300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 5.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7025 unused Assets / (5.1 MB). Loaded Objects now: 7886.
+Memory consumption went from 158.4 MB to 153.3 MB.
+Total: 26.506600 ms (FindLiveObjects: 1.853400 ms CreateObjectMapping: 2.215800 ms MarkObjects: 15.701900 ms  DeleteObjects: 6.731500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.610 seconds
+Refreshing native plugins compatible for Editor in 4.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=7e361052f22c503408d8a69a4d509ef5): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.664 seconds
+Domain Reload Profiling: 5273ms
+	BeginReloadAssembly (659ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (46ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (135ms)
+	RebuildCommonClasses (114ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (1695ms)
+		LoadAssemblies (1172ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (836ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (744ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2078ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (554ms)
+			ProcessInitializeOnLoadAttributes (1242ms)
+			ProcessInitializeOnLoadMethodAttributes (250ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (42ms)
+Refreshing native plugins compatible for Editor in 8.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (5.0 MB). Loaded Objects now: 7889.
+Memory consumption went from 158.3 MB to 153.4 MB.
+Total: 25.108200 ms (FindLiveObjects: 1.698400 ms CreateObjectMapping: 2.019200 ms MarkObjects: 14.664700 ms  DeleteObjects: 6.722500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.577 seconds
+Refreshing native plugins compatible for Editor in 6.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=0794964b18a2d9641acec4c7d8a7cc34): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.337 seconds
+Domain Reload Profiling: 5915ms
+	BeginReloadAssembly (593ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (48ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (107ms)
+	RebuildCommonClasses (107ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (1750ms)
+		LoadAssemblies (1179ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (859ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (781ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (3339ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2708ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (728ms)
+			ProcessInitializeOnLoadAttributes (1713ms)
+			ProcessInitializeOnLoadMethodAttributes (235ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 7.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (4.8 MB). Loaded Objects now: 7892.
+Memory consumption went from 158.4 MB to 153.6 MB.
+Total: 27.384600 ms (FindLiveObjects: 1.618700 ms CreateObjectMapping: 2.954500 ms MarkObjects: 15.461500 ms  DeleteObjects: 7.346500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7025 unused Assets / (5.2 MB). Loaded Objects now: 7892.
+Memory consumption went from 158.5 MB to 153.3 MB.
+Total: 28.222900 ms (FindLiveObjects: 2.379100 ms CreateObjectMapping: 2.284900 ms MarkObjects: 15.174700 ms  DeleteObjects: 8.381200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.705 seconds
+Refreshing native plugins compatible for Editor in 4.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=b7fa1b0a69939b541b325cb7d9540eed): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.644 seconds
+Domain Reload Profiling: 5352ms
+	BeginReloadAssembly (675ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (57ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (129ms)
+	RebuildCommonClasses (131ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (1753ms)
+		LoadAssemblies (1246ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (834ms)
+			TypeCache.Refresh (40ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (715ms)
+			ResolveRequiredComponents (65ms)
+	FinalizeReload (2646ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2033ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (481ms)
+			ProcessInitializeOnLoadAttributes (1222ms)
+			ProcessInitializeOnLoadMethodAttributes (297ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 6.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (5.0 MB). Loaded Objects now: 7895.
+Memory consumption went from 158.4 MB to 153.4 MB.
+Total: 28.749400 ms (FindLiveObjects: 1.412800 ms CreateObjectMapping: 1.828200 ms MarkObjects: 18.427500 ms  DeleteObjects: 7.077100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.694 seconds
+Refreshing native plugins compatible for Editor in 5.88 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=94f1b108233231942b88aca784e22f62): Total: 0.003 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+System.IO.IOException: Sharing violation on path D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Editor\ModulesListYG2.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding)
+  at System.IO.File.InternalReadAllLines (System.String path, System.Text.Encoding encoding) [0x00006] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.File.ReadAllLines (System.String path) [0x0002c] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at YG.EditorScr.DefineSymbols.ModulesDefineSymbols () [0x00035] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:198 
+  at YG.EditorScr.DefineSymbols.UpdateDefineSymbols () [0x0001c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:102 
+  at YG.EditorScr.DefineSymbols..cctor () [0x00031] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:39 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.014 seconds
+Domain Reload Profiling: 5708ms
+	BeginReloadAssembly (653ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (44ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (118ms)
+	RebuildNativeTypeToScriptingClass (51ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (1772ms)
+		LoadAssemblies (1320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (775ms)
+			TypeCache.Refresh (20ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (699ms)
+			ResolveRequiredComponents (39ms)
+	FinalizeReload (3016ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2462ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (559ms)
+			ProcessInitializeOnLoadAttributes (1534ms)
+			ProcessInitializeOnLoadMethodAttributes (333ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Refreshing native plugins compatible for Editor in 11.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (4.5 MB). Loaded Objects now: 7898.
+Memory consumption went from 158.5 MB to 153.9 MB.
+Total: 34.789100 ms (FindLiveObjects: 1.967600 ms CreateObjectMapping: 2.018500 ms MarkObjects: 23.733900 ms  DeleteObjects: 7.063000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 13.48 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7025 unused Assets / (4.3 MB). Loaded Objects now: 7898.
+Memory consumption went from 158.6 MB to 154.3 MB.
+Total: 38.465100 ms (FindLiveObjects: 1.910200 ms CreateObjectMapping: 1.988900 ms MarkObjects: 23.915100 ms  DeleteObjects: 10.648000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  3.571 seconds
+Refreshing native plugins compatible for Editor in 13.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=52bd2e58e3f6adb4b974f79d1f9670cd): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.004 seconds
+Domain Reload Profiling: 6574ms
+	BeginReloadAssembly (865ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (89ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (142ms)
+	RebuildCommonClasses (94ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (103ms)
+	LoadAllAssembliesAndSetupDomain (2465ms)
+		LoadAssemblies (1994ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (882ms)
+			TypeCache.Refresh (38ms)
+				TypeCache.ScanAssembly (11ms)
+			BuildScriptInfoCaches (779ms)
+			ResolveRequiredComponents (45ms)
+	FinalizeReload (3006ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (643ms)
+			ProcessInitializeOnLoadAttributes (1353ms)
+			ProcessInitializeOnLoadMethodAttributes (313ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 12.58 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (4.8 MB). Loaded Objects now: 7901.
+Memory consumption went from 158.5 MB to 153.7 MB.
+Total: 33.146200 ms (FindLiveObjects: 2.641600 ms CreateObjectMapping: 2.810000 ms MarkObjects: 18.597300 ms  DeleteObjects: 9.093700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7025 unused Assets / (3.5 MB). Loaded Objects now: 7901.
+Memory consumption went from 158.6 MB to 155.1 MB.
+Total: 40.282400 ms (FindLiveObjects: 2.955200 ms CreateObjectMapping: 2.121100 ms MarkObjects: 26.391700 ms  DeleteObjects: 8.810000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.978 seconds
+Refreshing native plugins compatible for Editor in 4.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=f0d3179e01f3a5b4f8d7b393ac785453): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.332 seconds
+Domain Reload Profiling: 5308ms
+	BeginReloadAssembly (994ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (80ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (178ms)
+	RebuildCommonClasses (191ms)
+	RebuildNativeTypeToScriptingClass (73ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1628ms)
+		LoadAssemblies (1349ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (760ms)
+			TypeCache.Refresh (35ms)
+				TypeCache.ScanAssembly (7ms)
+			BuildScriptInfoCaches (675ms)
+			ResolveRequiredComponents (36ms)
+	FinalizeReload (2333ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1822ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (441ms)
+			ProcessInitializeOnLoadAttributes (1105ms)
+			ProcessInitializeOnLoadMethodAttributes (247ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 4.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (4.3 MB). Loaded Objects now: 7904.
+Memory consumption went from 158.6 MB to 154.2 MB.
+Total: 25.254200 ms (FindLiveObjects: 1.797300 ms CreateObjectMapping: 1.824200 ms MarkObjects: 15.783500 ms  DeleteObjects: 5.845900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.719 seconds
+Refreshing native plugins compatible for Editor in 8.26 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=4d9727a63a273ae48beade604a56fc19): Total: 0.011 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.074 seconds
+Domain Reload Profiling: 5789ms
+	BeginReloadAssembly (592ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (119ms)
+	RebuildCommonClasses (117ms)
+	RebuildNativeTypeToScriptingClass (48ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1871ms)
+		LoadAssemblies (1285ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (866ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (788ms)
+			ResolveRequiredComponents (41ms)
+	FinalizeReload (3076ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2408ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (581ms)
+			ProcessInitializeOnLoadAttributes (1472ms)
+			ProcessInitializeOnLoadMethodAttributes (304ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Refreshing native plugins compatible for Editor in 8.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (4.1 MB). Loaded Objects now: 7907.
+Memory consumption went from 158.6 MB to 154.6 MB.
+Total: 30.856900 ms (FindLiveObjects: 1.994000 ms CreateObjectMapping: 2.408500 ms MarkObjects: 19.403700 ms  DeleteObjects: 7.046700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7025 unused Assets / (2.3 MB). Loaded Objects now: 7907.
+Memory consumption went from 158.7 MB to 156.4 MB.
+Total: 35.063800 ms (FindLiveObjects: 1.925100 ms CreateObjectMapping: 2.489700 ms MarkObjects: 25.107100 ms  DeleteObjects: 5.538500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  4.152 seconds
+Refreshing native plugins compatible for Editor in 8.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=eeba6e93d674d2948ba1e6f0bed94705): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.677 seconds
+Domain Reload Profiling: 6822ms
+	BeginReloadAssembly (1221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (121ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (192ms)
+	RebuildCommonClasses (195ms)
+	RebuildNativeTypeToScriptingClass (80ms)
+	initialDomainReloadingComplete (178ms)
+	LoadAllAssembliesAndSetupDomain (2465ms)
+		LoadAssemblies (2185ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (919ms)
+			TypeCache.Refresh (82ms)
+				TypeCache.ScanAssembly (8ms)
+			BuildScriptInfoCaches (780ms)
+			ResolveRequiredComponents (40ms)
+	FinalizeReload (2682ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2084ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (20ms)
+			BeforeProcessingInitializeOnLoad (550ms)
+			ProcessInitializeOnLoadAttributes (1206ms)
+			ProcessInitializeOnLoadMethodAttributes (272ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 7.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (3.7 MB). Loaded Objects now: 7910.
+Memory consumption went from 158.7 MB to 155.0 MB.
+Total: 25.901200 ms (FindLiveObjects: 1.611100 ms CreateObjectMapping: 1.695300 ms MarkObjects: 15.460100 ms  DeleteObjects: 7.132300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.868 seconds
+Refreshing native plugins compatible for Editor in 7.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=cc632a93bcb101648ab5b07c7960b633): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.036 seconds
+Domain Reload Profiling: 5910ms
+	BeginReloadAssembly (856ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (97ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (239ms)
+	RebuildCommonClasses (114ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (1768ms)
+		LoadAssemblies (1355ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (720ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (651ms)
+			ResolveRequiredComponents (33ms)
+	FinalizeReload (3038ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2381ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (571ms)
+			ProcessInitializeOnLoadAttributes (1416ms)
+			ProcessInitializeOnLoadMethodAttributes (346ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 8.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7039 unused Assets / (2.2 MB). Loaded Objects now: 7913.
+Memory consumption went from 158.8 MB to 156.6 MB.
+Total: 30.926100 ms (FindLiveObjects: 1.861500 ms CreateObjectMapping: 2.207200 ms MarkObjects: 20.320500 ms  DeleteObjects: 6.533300 ms)
+
+Prepare: number of updated asset objects reloaded= 23
+========================================================================
+Received Import Request.
+  Time since last request: 7910.911626 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Example/Scripts/DebugInterstitialAdv.cs
+  artifactKey: Guid(d4ce4117ad12886458a6cd220463ab89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Example/Scripts/DebugInterstitialAdv.cs using Guid(d4ce4117ad12886458a6cd220463ab89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f15ccb90fb4bf711eeeb5bf70faf230') in 0.6632274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Version.txt
+  artifactKey: Guid(34ed871b9f65f074aae0003c92119cd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Version.txt using Guid(34ed871b9f65f074aae0003c92119cd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '126513b8a575e34e669cdda57d9ad7fa') in 0.0415304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/AdNotification/Editor
+  artifactKey: Guid(660cf4cb200f2b24ab37ff7f507b5c21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/AdNotification/Editor using Guid(660cf4cb200f2b24ab37ff7f507b5c21) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bd96777450d292d45092b7fdb398df3') in 0.0310868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(509dc663fe7e8024f8ad33c93044ee67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/MainMenu.unity using Guid(509dc663fe7e8024f8ad33c93044ee67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89e4615d6ac07621503c8da8ee8d8371') in 0.0394825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/Editor
+  artifactKey: Guid(9257aa250bee8bf4697f88267858a596) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/Editor using Guid(9257aa250bee8bf4697f88267858a596) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '276b5bc9f87b81f5112f7ded66ac64a4') in 0.0246777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/PluginYourGames/Editor/BuildLogYG2.txt
+  artifactKey: Guid(7606dfb666f08f7419b9c44148272877) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Editor/BuildLogYG2.txt using Guid(7606dfb666f08f7419b9c44148272877) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e639451f9c1408927cd827553d43ec3') in 0.0264254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/TimerBeforeAds/Editor/TimerBeforeAdsYGEditor.cs
+  artifactKey: Guid(8421ed7f0dda2434998166a1124615aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/TimerBeforeAds/Editor/TimerBeforeAdsYGEditor.cs using Guid(8421ed7f0dda2434998166a1124615aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74a5b0f0f4ff5cc0373cb0d6ac258cbe') in 0.0270209 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Scripts/Game/UI/LoadLevels.cs
+  artifactKey: Guid(5668112b10ff5744e9acf1fe2820426e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Game/UI/LoadLevels.cs using Guid(5668112b10ff5744e9acf1fe2820426e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7fbae8caef0d94e6ea89a8eb6e37cae4') in 0.0401911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Prefabs/Game/GameController.prefab
+  artifactKey: Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Prefabs/Game/GameController.prefab using Guid(876185c67d2bed2428d82545f9af026b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00739e1d7689539f7e943d49f7416f6b') in 0.3043142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1119
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/TimerBeforeAds/TimerBeforeAdsYG.cs
+  artifactKey: Guid(9c70c93a5ff1043419125d7cff580a7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/TimerBeforeAds/TimerBeforeAdsYG.cs using Guid(9c70c93a5ff1043419125d7cff580a7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa16228560777725c89463823c4e8044') in 0.0338252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_interface.cs
+  artifactKey: Guid(40b762bb2a7ef7f4cb5940b324db7731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_interface.cs using Guid(40b762bb2a7ef7f4cb5940b324db7731) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '536884569e53b692326718ad86e3518f') in 0.0303332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/Editor/Icons/InterstitialAdv.png
+  artifactKey: Guid(2904e2cded3eaaa4bbe5cea7aa81e5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/Editor/Icons/InterstitialAdv.png using Guid(2904e2cded3eaaa4bbe5cea7aa81e5f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce19193e70e6de110322d355cab22704') in 0.2069205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Plugins
+  artifactKey: Guid(26506fb5ac7e91a46bb9770b11f14bda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Plugins using Guid(26506fb5ac7e91a46bb9770b11f14bda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '735f678284e935fc7ce70396554b12fa') in 0.0280105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PluginYourGames/Example/Resources/DemoSceneNames.txt
+  artifactKey: Guid(b552c97859a81c941a52ee2d0e0df362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Example/Resources/DemoSceneNames.txt using Guid(b552c97859a81c941a52ee2d0e0df362) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5b3dacbab88900a55746adb263be9c1') in 0.0287139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/Editor/CopyCode/InterAdv_js.js
+  artifactKey: Guid(4b4a278ed00d5314a95b09e5fbb26f00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/Editor/CopyCode/InterAdv_js.js using Guid(4b4a278ed00d5314a95b09e5fbb26f00) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b5a4304986486f50eed2a44846982f5') in 0.0278548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/AdNotification/AdNotificationYG.cs
+  artifactKey: Guid(e65969bdf1e6f594dad0d590a5a83ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/AdNotification/AdNotificationYG.cs using Guid(e65969bdf1e6f594dad0d590a5a83ad1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7eb8e3695c375a07e2cccd85cdc97fe8') in 0.028254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Prefabs/Timer Before Ads.prefab
+  artifactKey: Guid(35fa95bde1a56744eb9b514cef2e0af8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Prefabs/Timer Before Ads.prefab using Guid(35fa95bde1a56744eb9b514cef2e0af8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ec8885386912e8231c5b06c16ee32fe6') in 0.0630934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Example/Scenes/InterstitialAdv.unity
+  artifactKey: Guid(fa3157f2450b2874a8c22b42f700dcd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Example/Scenes/InterstitialAdv.unity using Guid(fa3157f2450b2874a8c22b42f700dcd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5c3940c34f138d323b7ddf163d12c93') in 0.0774491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterstitialAdv_projectSettings.cs
+  artifactKey: Guid(92b5c537364004746bcb8b6fd62dae20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterstitialAdv_projectSettings.cs using Guid(92b5c537364004746bcb8b6fd62dae20) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70c46539fff80f2649f9ea4fec571462') in 0.0427187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Plugins/InterstitialAdv.jslib
+  artifactKey: Guid(85526e135cd405b408365c2eeaeba72b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Plugins/InterstitialAdv.jslib using Guid(85526e135cd405b408365c2eeaeba72b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2808adefbb7da3127dac3d81d2733e69') in 0.1033828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/PluginYourGames/Resources/SettingsYG2.asset
+  artifactKey: Guid(549c8f707415a2846b909bd29775fdfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Resources/SettingsYG2.asset using Guid(549c8f707415a2846b909bd29775fdfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfbe3cd647c6ac7868e07585e451ae6b') in 0.2400569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Prefabs
+  artifactKey: Guid(4980bbc690aa94a4198017d7f549461d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Prefabs using Guid(4980bbc690aa94a4198017d7f549461d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f8f7dcb91334cd125423b96e9bc5172') in 0.0510475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterstitialAdv_callingSimulation.cs
+  artifactKey: Guid(ab76f3ae249d677468f56842c292e914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterstitialAdv_callingSimulation.cs using Guid(ab76f3ae249d677468f56842c292e914) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4c1e3a56347c320382647e50422febc') in 0.0551357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_info.cs
+  artifactKey: Guid(60bdeb0debccb94449fe7eda48c76575) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PluginYourGames/Modules/InterstitialAdv/Scripts/InterAdv_info.cs using Guid(60bdeb0debccb94449fe7eda48c76575) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08a912b983a398f1758419db095c5539') in 0.0547068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 36.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7027 unused Assets / (4.4 MB). Loaded Objects now: 7916.
+Memory consumption went from 160.3 MB to 155.9 MB.
+Total: 70.337200 ms (FindLiveObjects: 5.283400 ms CreateObjectMapping: 3.512700 ms MarkObjects: 54.208700 ms  DeleteObjects: 7.329000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 15.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7026 unused Assets / (3.8 MB). Loaded Objects now: 7916.
+Memory consumption went from 160.3 MB to 156.5 MB.
+Total: 50.582900 ms (FindLiveObjects: 3.592900 ms CreateObjectMapping: 5.349600 ms MarkObjects: 30.252700 ms  DeleteObjects: 11.385500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 103.214532 seconds.
+  path: Assets/Scripts/Game/WorldAnchor.cs
+  artifactKey: Guid(17874101a59b20744bac7219d7d723d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Game/WorldAnchor.cs using Guid(17874101a59b20744bac7219d7d723d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c22db25b3bc2d99e9e60c585a21d242') in 0.0471641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 22.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7026 unused Assets / (3.8 MB). Loaded Objects now: 7916.
+Memory consumption went from 160.3 MB to 156.4 MB.
+Total: 51.222800 ms (FindLiveObjects: 4.134800 ms CreateObjectMapping: 2.310500 ms MarkObjects: 26.131100 ms  DeleteObjects: 18.643600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.443582 seconds.
+  path: Assets/Scripts/Game/WorldAnchor.cs
+  artifactKey: Guid(17874101a59b20744bac7219d7d723d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Game/WorldAnchor.cs using Guid(17874101a59b20744bac7219d7d723d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '774ef59a2fda3a0842c0184dd7262f66') in 0.0474489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7026 unused Assets / (3.9 MB). Loaded Objects now: 7916.
+Memory consumption went from 160.3 MB to 156.4 MB.
+Total: 30.372800 ms (FindLiveObjects: 1.505400 ms CreateObjectMapping: 1.934400 ms MarkObjects: 19.719200 ms  DeleteObjects: 7.210300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.559 seconds
+Refreshing native plugins compatible for Editor in 7.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=14a168d9fa2c0c143917cca21d4548ea): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+System.IO.IOException: Sharing violation on path D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Editor\ModulesListYG2.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding, System.Boolean detectEncodingFromByteOrderMarks, System.Int32 bufferSize) [0x00055] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.StreamReader..ctor (System.String path, System.Text.Encoding encoding) [0x00000] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamReader..ctor(string,System.Text.Encoding)
+  at System.IO.File.InternalReadAllLines (System.String path, System.Text.Encoding encoding) [0x00006] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at System.IO.File.ReadAllLines (System.String path) [0x0002c] in <41d29b352f6a475ab1bf7c6628b82790>:0 
+  at YG.EditorScr.DefineSymbols.ModulesDefineSymbols () [0x00035] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:198 
+  at YG.EditorScr.DefineSymbols.UpdateDefineSymbols () [0x0001c] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:102 
+  at YG.EditorScr.DefineSymbols..cctor () [0x00031] in D:\Nikita\Unity\myProject\YandexGame\Assets\PluginYourGames\Scripts\EditorScr\DefineSymbols.cs:39 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.671 seconds
+Domain Reload Profiling: 5229ms
+	BeginReloadAssembly (660ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (49ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (130ms)
+	RebuildCommonClasses (113ms)
+	RebuildNativeTypeToScriptingClass (46ms)
+	initialDomainReloadingComplete (92ms)
+	LoadAllAssembliesAndSetupDomain (1646ms)
+		LoadAssemblies (1229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (724ms)
+			TypeCache.Refresh (44ms)
+				TypeCache.ScanAssembly (10ms)
+			BuildScriptInfoCaches (634ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2084ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (523ms)
+			ProcessInitializeOnLoadAttributes (1246ms)
+			ProcessInitializeOnLoadMethodAttributes (281ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 9.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7040 unused Assets / (5.8 MB). Loaded Objects now: 7919.
+Memory consumption went from 159.1 MB to 153.3 MB.
+Total: 38.957000 ms (FindLiveObjects: 2.206000 ms CreateObjectMapping: 3.383800 ms MarkObjects: 19.309200 ms  DeleteObjects: 14.053900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.087406 seconds.
+  path: Assets/Scripts/Game/WorldAnchor.cs
+  artifactKey: Guid(17874101a59b20744bac7219d7d723d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Game/WorldAnchor.cs using Guid(17874101a59b20744bac7219d7d723d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5cf9f563be2a2de7870f6f17a20889e') in 0.0118622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.795 seconds
+Refreshing native plugins compatible for Editor in 10.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=49ea7017f385a484fbb21bfa4e1fc417): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.224 seconds
+Domain Reload Profiling: 6017ms
+	BeginReloadAssembly (652ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (53ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (127ms)
+	RebuildCommonClasses (124ms)
+	RebuildNativeTypeToScriptingClass (53ms)
+	initialDomainReloadingComplete (99ms)
+	LoadAllAssembliesAndSetupDomain (1863ms)
+		LoadAssemblies (1247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (921ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (839ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (3226ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2560ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (15ms)
+			BeforeProcessingInitializeOnLoad (582ms)
+			ProcessInitializeOnLoadAttributes (1607ms)
+			ProcessInitializeOnLoadMethodAttributes (323ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (68ms)
+Refreshing native plugins compatible for Editor in 7.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7040 unused Assets / (4.7 MB). Loaded Objects now: 7922.
+Memory consumption went from 159.2 MB to 154.5 MB.
+Total: 25.174900 ms (FindLiveObjects: 2.080300 ms CreateObjectMapping: 1.997600 ms MarkObjects: 14.392000 ms  DeleteObjects: 6.702100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  5.524 seconds
+Refreshing native plugins compatible for Editor in 6.60 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=fb1d565a3df703e43b9b0a1b7e07485a): Total: 0.001 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.802 seconds
+Domain Reload Profiling: 8304ms
+	BeginReloadAssembly (1389ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (117ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (7ms)
+		CreateAndSetChildDomain (286ms)
+	RebuildCommonClasses (252ms)
+	RebuildNativeTypeToScriptingClass (79ms)
+	initialDomainReloadingComplete (278ms)
+	LoadAllAssembliesAndSetupDomain (3502ms)
+		LoadAssemblies (3247ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (877ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (782ms)
+			ResolveRequiredComponents (37ms)
+	FinalizeReload (2804ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2207ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (14ms)
+			BeforeProcessingInitializeOnLoad (657ms)
+			ProcessInitializeOnLoadAttributes (1212ms)
+			ProcessInitializeOnLoadMethodAttributes (296ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (45ms)
+Refreshing native plugins compatible for Editor in 12.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7040 unused Assets / (4.1 MB). Loaded Objects now: 7925.
+Memory consumption went from 159.3 MB to 155.1 MB.
+Total: 31.660100 ms (FindLiveObjects: 2.683100 ms CreateObjectMapping: 1.983300 ms MarkObjects: 18.819100 ms  DeleteObjects: 8.170900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  2.419 seconds
+Refreshing native plugins compatible for Editor in 5.74 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Assertion failed on expression: '!AssetDatabase::IsAssetImportWorkerProcess()'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+YG.EditorScr.AssetEditScope:Dispose () (at Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs:143)
+YG.EditorScr.DefineSymbols:ConversionPlatformConfigs () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:333)
+YG.EditorScr.DefineSymbols:UpdateDefineSymbols () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:101)
+YG.EditorScr.DefineSymbols:.cctor () (at Assets/PluginYourGames/Scripts/EditorScr/DefineSymbols.cs:39)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Assets/PluginYourGames/Scripts/EditorScr/FileYG.cs line 143]
+
+Asset Pipeline Refresh (id=e200215d2f06edf438b3bd44c11569a6): Total: 0.002 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.747 seconds
+Domain Reload Profiling: 5165ms
+	BeginReloadAssembly (625ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (59ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (122ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1546ms)
+		LoadAssemblies (1126ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (725ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (658ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (2748ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2205ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (478ms)
+			ProcessInitializeOnLoadAttributes (1416ms)
+			ProcessInitializeOnLoadMethodAttributes (279ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 8.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7040 unused Assets / (4.3 MB). Loaded Objects now: 7928.
+Memory consumption went from 159.3 MB to 155.0 MB.
+Total: 32.481500 ms (FindLiveObjects: 1.632700 ms CreateObjectMapping: 2.120800 ms MarkObjects: 18.053000 ms  DeleteObjects: 10.670700 ms)
+
+Prepare: number of updated asset objects reloaded= 0

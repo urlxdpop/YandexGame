@@ -1,6 +1,5 @@
 using DG.Tweening;
 using System;
-using Units.Warrior;
 using UnityEngine;
 
 namespace Game.SpawnSystem
@@ -18,6 +17,8 @@ namespace Game.SpawnSystem
 
         private void Update()
         {
+            ClampToCamera();
+
             if (!_isMoving)
             {
                 Move();
@@ -51,6 +52,23 @@ namespace Game.SpawnSystem
                     _isMoving = false;
                 });
             });
+        }
+
+        void ClampToCamera()
+        {
+            Camera cam = Camera.main;
+
+            float height = cam.orthographicSize;
+            float width = height * cam.aspect;
+
+            Vector3 pos = transform.position;
+
+            Vector3 camPos = cam.transform.position;
+
+            pos.x = Mathf.Clamp(pos.x, camPos.x - width, camPos.x + width);
+            pos.y = Mathf.Clamp(pos.y, camPos.y - height, camPos.y + height);
+
+            transform.position = pos;
         }
     }
 }
